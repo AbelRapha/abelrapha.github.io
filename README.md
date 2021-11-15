@@ -12,7 +12,7 @@
     <a href = "#Dedicatória">Dedicatória 🙏</a>
 </p>
 
-# Sobre-mim
+<h1> Sobre-mim </h1>
 Olá, eu me chamo Abel, sou Analista/Cientista de Dados.
 
 👨🏻‍🎓 Atualmente sou graduando em Engenharia de Transportes pela Faculdade de Tecnologia da UNICAMP
@@ -33,7 +33,7 @@ Link do canal do YouTube: https://www.youtube.com/channel/UCwA0jaKFfgyOUrWx5CN_N
 - Sou novato na área de Tecnologia (Comecei em Junho de 2020)
 - Não possuo graduação Completa
 
-# Tecnologias 
+<h1> Tecnologias</h1> 
   <div style="display: inline-block"><br>
   <img align="center" alt="Abel-Python" height="40" width="80" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg">  
   <img align="center" alt="Abel-Python" height="40" width="80" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
@@ -56,6 +56,6 @@ Link do canal do YouTube: https://www.youtube.com/channel/UCwA0jaKFfgyOUrWx5CN_N
   <img align="center" alt="Abel-Streamlit" height="40" width="80"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqicgzuShpNB_V3iu_row8VvH2iqoqXAqI-Q&usqp=CAU">
 </div>
 
-# Portfólio
+<h1> Portfólio</h1>
 
 
