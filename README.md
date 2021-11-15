@@ -15,7 +15,7 @@ Olá, eu me chamo Abel, sou Analista/Cientista de Dados.
 
 👩🏻‍💻 Sou um Web Designer, mas em transição para a área de ciência de dados com finalidade de poder extrair insights desses dados e poder contar para pessoas e empresas as minhas considerações e descobertas durante essa jornada.
 
-👨🏻‍🏫 Amo ensinar o que gosto de aprender, Já tive experiências reais de ensinar português à Refugiados da Síria, Haitianos e Pessoas localizadas na África Saariana, como Egípcios, Argelinos, Marroquinos e etc. E atualmente sou monitor PAD na graduação na Disciplina de Estatística, e que ensino e auxilio a professora a como utilizar R e Python no contexto estatístico da ciência de dados.
+👨🏻‍🏫 Amo ensinar o que gosto de aprender, Já tive experiências reais de ensinar português à Refugiados. E atualmente sou monitor PAD na graduação na Disciplina de Estatística, e que ensino e auxilio a professora a como utilizar R e Python no contexto estatístico da ciência de dados.
 Link do canal do YouTube: https://www.youtube.com/channel/UCwA0jaKFfgyOUrWx5CN_Nzw
 
 👦🏻 Algumas de minhas características:
