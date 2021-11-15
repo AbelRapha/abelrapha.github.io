@@ -1,11 +1,15 @@
 # Abel Rapha - Data Science/ Data Analytics 
 
 <p align = 'center'> 
-    <a href = "#Sobre-mim">Sobre Mim</a>
-    <a href = "#Tecnologias">Tecnologias</a>
-    <a href = "#Portfólio">Portfólio</a>
-    <a href = "#Artigos">Artigos</a>
-    <a href = "#Dedicatória">Dedicatória</a>
+    <a href = "#Sobre-mim ">Sobre Mim 👦</a>
+    <br>
+    <a href = "#Tecnologias ">Tecnologias 💻</a>
+    <br>
+    <a href = "#Portfólio ">Portfólio 📄</a>
+    <br>
+    <a href = "#Artigos">Artigos 📚</a>
+    <br>
+    <a href = "#Dedicatória">Dedicatória 🙏</a>
 </p>
 
 # Sobre-mim
@@ -34,15 +38,22 @@ Link do canal do YouTube: https://www.youtube.com/channel/UCwA0jaKFfgyOUrWx5CN_N
   <img align="center" alt="Abel-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg">  
   <img align="center" alt="Abel-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
   <img align="center" alt="Abel-R" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/r/r-original.svg">
-  <img align="center" alt="Abel-Flask" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg">
-  <img align="center" alt="Abel-Rstudio" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rstudio/rstudio-original.svg">
-  <img align="center" alt="Abel-Jupyter" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg">
-  <img align="center" alt="Abel-Git" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
+  <img align="center" alt="Abel-Flask" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg">
+   <img align="center" alt="Abel-Jupyter" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg">
+  <img align="center" alt="Abel-Git" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg">
+  <img align="center" alt="Abel-GitHub" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg">
+  <img align="center" alt="Abel-Bootstrap" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg">
+  <img align="center" alt="Abel-Heroku" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain-wordmark.svg">
+  <img align="center" alt="Abel-Heroku" height="30" width="40"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain-wordmark.svg">
+  <img align="center" alt="Abel-Numpy" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original-wordmark.svg">
+  <img align="center" alt="Abel-Numpy" height="30" width="40"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg">
 </div>
-- Visualização de dados com PANDAS, MATPLOTLIB, SEABORN e PLOTLY
-_ Conhecimento em SCKIT-LEARN
-- Micro framework Flask
-- Tkinter
-- Streamlit
-- Conhecimento de algoritmos de MACHINE LEARNING (Classificação e Regressão)
-- Web Designer Profissional em WordPress e com Projetos Reais (Veja em: https://www.espetinhoslf.com),(https://www.pizzariacamargo.com),(https://www.cbtoledo.com)
+
+* Visualização de dados com PANDAS, MATPLOTLIB, SEABORN e PLOTLY
+* Conhecimento em SCKIT-LEARN (Conhecimento de algoritmos de MACHINE LEARNING (Classificação, Regressão e Clusterização)
+* Tkinter
+* Streamlit
+
+# Portfólio
+
+
