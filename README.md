@@ -29,10 +29,16 @@ Link do canal do YouTube: https://www.youtube.com/channel/UCwA0jaKFfgyOUrWx5CN_N
 - Sou novato na área de Tecnologia (Comecei em Junho de 2020)
 - Não possuo graduação Completa
 
-💻 STACKS:
-- Linguagem R
-- Visualização de dados com GGPLOT2
-- Linguagem Python
+# 💻 Tecnologias:
+  <div style="display: inline_block"><br>
+  <img align="center" alt="Abel-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg">  
+  <img align="center" alt="Abel-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+  <img align="center" alt="Abel-R" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/r/r-original.svg">
+  <img align="center" alt="Abel-Flask" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg">
+  <img align="center" alt="Abel-Rstudio" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rstudio/rstudio-original.svg">
+  <img align="center" alt="Abel-Jupyter" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg">
+  <img align="center" alt="Abel-Git" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
+</div>
 - Visualização de dados com PANDAS, MATPLOTLIB, SEABORN e PLOTLY
 _ Conhecimento em SCKIT-LEARN
 - Micro framework Flask
