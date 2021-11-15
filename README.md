@@ -34,7 +34,7 @@ Link do canal do YouTube: https://www.youtube.com/channel/UCwA0jaKFfgyOUrWx5CN_N
 - Não possuo graduação Completa
 
 # 💻 Tecnologias:
-  <div style="display: inline_block"><br>
+  <div style="display: block"><br>
   <img align="center" alt="Abel-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg">  
   <img align="center" alt="Abel-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
   <img align="center" alt="Abel-R" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/r/r-original.svg">
@@ -46,7 +46,8 @@ Link do canal do YouTube: https://www.youtube.com/channel/UCwA0jaKFfgyOUrWx5CN_N
   <img align="center" alt="Abel-Heroku" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain-wordmark.svg">
   <img align="center" alt="Abel-Heroku" height="30" width="40"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain-wordmark.svg">
   <img align="center" alt="Abel-Numpy" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original-wordmark.svg">
-  <img align="center" alt="Abel-Numpy" height="30" width="40"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg">
+  <img align="center" alt="Abel-Numpy" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg">
+  <img align="center" alt="Abel-Numpy" height="30" width="40"  src="https://i.redd.it/c6h7rok9c2v31.jpg">
 </div>
 
 * Visualização de dados com PANDAS, MATPLOTLIB, SEABORN e PLOTLY
