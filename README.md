@@ -33,7 +33,7 @@ Link do canal do YouTube: https://www.youtube.com/channel/UCwA0jaKFfgyOUrWx5CN_N
 - Sou novato na área de Tecnologia (Comecei em Junho de 2020)
 - Não possuo graduação Completa
 
-# Tecnologias 💻 
+# Tecnologias 
   <div style="display: inline-block"><br>
   <img align="center" alt="Abel-Python" height="40" width="80" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg">  
   <img align="center" alt="Abel-Python" height="40" width="80" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
