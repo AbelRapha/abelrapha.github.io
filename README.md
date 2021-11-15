@@ -40,13 +40,13 @@ Link do canal do YouTube: https://www.youtube.com/channel/UCwA0jaKFfgyOUrWx5CN_N
   <img align="center" alt="Abel-Python" height="40" width="80" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
   <img align="center" alt="Abel-R" height="40" width="80" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/r/r-original.svg">
   <img align="center" alt="Abel-Flask" height="40" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg">
-   <img align="center" alt="Abel-Jupyter" height="40" width="80" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg">
+  <img align="center" alt="Abel-Jupyter" height="40" width="80" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg">
   <img align="center" alt="Abel-Git" height="40" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg">
   <img align="center" alt="Abel-GitHub" height="40" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg">
   <img align="center" alt="Abel-Bootstrap" height="40" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg">
   <img align="center" alt="Abel-Heroku" height="40" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain-wordmark.svg">
   <img align="center" alt="Abel-Heroku" height="40" width="80"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain-wordmark.svg">
-  <img align="center" alt="Abel-Numpy"height="40" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original-wordmark.svg">
+  <img align="center" alt="Abel-Numpy" height="40" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original-wordmark.svg">
   <img align="center" alt="Abel-SQLServer" height="40" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg">
   <img align="center" alt="Abel-Pandas" height="40" width="80"  src="https://i.redd.it/c6h7rok9c2v31.jpg">
   <img align="center" alt="Abel-Seaborn" height="40" width="80"  src="https://seaborn.pydata.org/_images/logo-tall-lightbg.svg">
