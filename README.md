@@ -1,15 +1,15 @@
 # Abel Rapha - Data Science/ Data Analytics 
 
 <p align = 'center'> 
-    <a name = "#Sobre-mim">Sobre mim 👦</a>
+    <a href = "#Sobre-mim">Sobre mim 👦</a>
     <br>
-    <a name = "#Tecnologias">Tecnologias 💻</a>
+    <a href = "#Tecnologias">Tecnologias 💻</a>
     <br>
-    <a name = "#Portfólio">Portfólio 📄</a>
+    <a href = "#Portfólio">Portfólio 📄</a>
     <br>
-    <a name = "#Artigos">Artigos 📚</a>
+    <a href = "#Artigos">Artigos 📚</a>
     <br>
-    <a name = "#Dedicatória">Dedicatória 🙏</a>
+    <a href = "#Dedicatória">Dedicatória 🙏</a>
 </p>
 
 <h1 id="Sobre-mim">Sobre Mim</h1>
@@ -59,3 +59,6 @@ Link do canal do YouTube: https://www.youtube.com/channel/UCwA0jaKFfgyOUrWx5CN_N
 
 <h1 id= "Portfólio">Portfólio</h1>
 
+<h1 id= "Artigos">Artigos</h1>
+
+<h1 id= "Dedicatória">Dedicatória</h1>
