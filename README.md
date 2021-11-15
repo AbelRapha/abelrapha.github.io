@@ -1,18 +1,18 @@
 # Abel Rapha - Data Science/ Data Analytics 
 
 <p align = 'center'> 
-    <a href = "#Sobre-mim ">Sobre Mim 👦</a>
+    <a href = "#Sobre mim">Sobre Mim 👦</a>
     <br>
-    <a href = "#Tecnologias ">Tecnologias 💻</a>
+    <a href = "#Tecnologias">Tecnologias 💻</a>
     <br>
-    <a href = "#Portfólio ">Portfólio 📄</a>
+    <a href = "#Portfólio">Portfólio 📄</a>
     <br>
     <a href = "#Artigos">Artigos 📚</a>
     <br>
     <a href = "#Dedicatória">Dedicatória 🙏</a>
 </p>
 
-# Sobre-mim
+# Sobre mim
 Olá, eu me chamo Abel, sou Analista/Cientista de Dados.
 
 👨🏻‍🎓 Atualmente sou graduando em Engenharia de Transportes pela Faculdade de Tecnologia da UNICAMP
