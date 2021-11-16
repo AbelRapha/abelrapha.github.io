@@ -64,7 +64,6 @@ href = "https://www.youtube.com/channel/UCwA0jaKFfgyOUrWx5CN_Nzw"> Link do canal
     <a href= "https://github.com/AbelRapha/DataProjects/tree/main/Projetos_em_Python/AIRBNB_RIO"><img align="center" alt="Desafio-Airbnb" height="200" width="275" src="https://pbs.twimg.com/profile_images/1347634863701065728/OLRhvWyv_400x400.png"></a>
 </div>
 <br>
-<br>
 <div style="display: inline-block"> 
     <a href="https://github.com/AbelRapha/DataProjects/tree/main/Projetos_em_Python/Projeto%20de%20An%C3%A1lise%20de%20Dados"><img align="center" alt="Analise-dados" height="200" width="300" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf2_qhzC-nKqVo36pO6OjLgKeTyXrffSulkQ&usqp=CAU"></a>
     <a href= "http://blogdescomplicandodados.herokuapp.com/"><img align="center" alt="Blog-Descomplicando-dados" height="200" width="300" src="https://www.bogotobogo.com/python/images/Flask/Flask-Etaman-Blog-1-SignUp-Page/SignUpPageAtSignUpButton.png"></a>
