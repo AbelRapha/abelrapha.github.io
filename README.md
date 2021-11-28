@@ -54,7 +54,7 @@ href = "https://www.youtube.com/channel/UCwA0jaKFfgyOUrWx5CN_Nzw"> Link do canal
   <img align="center" alt="Abel-Plotly" height="35" width="80"  src="https://upload.wikimedia.org/wikipedia/commons/3/37/Plotly-logo-01-square.png">
   <img align="center" alt="Abel-Scikit-learn" height="35" width="60"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png">
   <img align="center" alt="Abel-Streamlit" height="40" width="80"  src="https://cdn-images-1.medium.com/max/1024/1*u9U3YjxT9c9A1FIaDMonHw.png">
-  <img align="center" alt="Abel-Streamlit" height="40" width="80"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqicgzuShpNB_V3iu_row8VvH2iqoqXAqI-Q&usqp=CAU">
+  <img align="center" alt="Abel-Tkinter" height="40" width="80"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqicgzuShpNB_V3iu_row8VvH2iqoqXAqI-Q&usqp=CAU">
 </div>
 
 <h1 id= "Portfólio">Portfólio</h1>
