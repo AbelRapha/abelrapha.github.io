@@ -2,20 +2,20 @@ body {
     background: black;
 }
 
-h1{
+.conteudo {
     color: #F6F6F6;
     margin-right: 5%;
     padding: 20px;
-    margin-top: 20%;
-    margin-bottom: -10px;
+    margin-top: 30%;
+    font-size: 30px;
+    
 }
 
-p {
+.conteudo-paragrafo {
     color: #F6F6F6;
     margin-right: 5%;
     padding: 20px;
     font: normal 14pt Arial ;
-
 }
 
 strong {
@@ -25,7 +25,12 @@ strong {
 .imagem {
     height: 50%;
     width: 30%;   
-    margin: 10% 10% 0;
+    margin: 15% 10% 0;
+}
+
+.imagem:hover {
+    transform: scale(1.05);
+    transition: 1s border;
 }
 
 .container-conteudo{
@@ -35,7 +40,7 @@ strong {
 }
 
 
-a {
+.botao {
 
   color: #22D4FD;
   font: normal 15pt Arial;
@@ -48,13 +53,13 @@ a {
 
 }
 
-ul li {
+.botao-secao li {
     display: inline-block;
     margin: 0 5%;
 
 }
 
-ul li:hover {
+.botao-secao li:hover {
     transform: scale(1.05);
     transition: 1s border;
 }
@@ -67,6 +72,36 @@ footer {
     background: rgba(128, 128, 128, 0.684)
 }
 
+header {
+    color: #F6F6F6;
+}
 
+nav {
+	position: absolute;
+}
+
+.caixa {
+	width: 940px;
+	position: relative;
+	margin: 0 60%;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 20px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #F6F6F6;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #22D4FD;
+	text-decoration: underline;
+}
 
 

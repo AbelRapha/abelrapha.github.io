@@ -7,23 +7,41 @@
     <title>portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="" href="">
 </head>
 <body>
 
-    <header></header>
+    <header>
+        <div class="caixa">
+            <nav>
+                <ul class="navbar">
+                    <li><a href="index.html">Início</a> </li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
     <main>
         <section class="container-conteudo">
-            <div class = "conteudo__texto">
+            <div>
                 <h1 class = "conteudo">Eleve seu negócio digital a outro nível <strong>com um Desenvolvedor de qualidade!</strong> </h1>
-                <p class="conteudo">Olá! Me chamo Abel, sou desenvolvedor e um profissional da área de Dados. Tenho especialidade em Desenvolvimento Web, Ciência de Dados, Análise de dados e conhecimento em infraestrustura cloud. Também faço projetos para pequenos negócios alavancarem suas vendas no meio digitial. Vamos conversar?</p>
+                <p class="conteudo-paragrafo">Olá! Me chamo Abel, sou desenvolvedor e um profissional da área de Dados. Tenho especialidade em Desenvolvimento Web, Ciência de Dados, Análise de dados e conhecimento em infraestrustura cloud. Também faço projetos para pequenos negócios alavancarem suas vendas no meio digitial. Vamos conversar?</p>
             </div>
             <img class = "imagem" src="Foto-principal.png">
         </section>
-        <ul>
-            <li> <a href="github.com/AbelRapha">Github</a></li>
-            <li> <a href="https://www.linkedin.com/in/abel-rapha-data-science/">Linkedin</a></li>
-        </ul>          
+        <ul class="botao-secao">
+            <li> <a class="botao" href="github.com/AbelRapha">Github</a></li>
+            <li> <a class="botao" href="https://www.linkedin.com/in/abel-rapha-data-science/">Linkedin</a></li>
+        </ul>      
     </main>
-    <footer>&copy; Abel</footer>  
+    <footer>&copy; Abel 2023</footer>  
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+    intent="WELCOME"
+    chat-title="chatbot"
+    agent-id="b51a7def-ae1d-4b29-9e11-d0955fddc249"
+    language-code="pt-br"
+    ></df-messenger>
 </body>
 </html>
