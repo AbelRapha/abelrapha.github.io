@@ -2,6 +2,34 @@ body {
     background: black;
 }
 
+nav {
+	position: absolute;
+}
+
+.caixa {
+	width: 940px;
+	position: relative;
+	margin: 0 60%;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 20px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #F6F6F6;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #22D4FD;
+	text-decoration: underline;
+}
+
 .conteudo {
     color: #F6F6F6;
     margin-right: 5%;
@@ -76,32 +104,6 @@ header {
     color: #F6F6F6;
 }
 
-nav {
-	position: absolute;
-}
 
-.caixa {
-	width: 940px;
-	position: relative;
-	margin: 0 60%;
-}
-
-nav li {
-	display: inline;
-	margin: 0 0 0 20px;
-}
-
-nav a {
-	text-transform: uppercase;
-	color: #F6F6F6;
-	font-weight: bold;
-	font-size: 22px;
-	text-decoration: none;
-}
-
-nav a:hover {
-	color: #22D4FD;
-	text-decoration: underline;
-}
 
 
