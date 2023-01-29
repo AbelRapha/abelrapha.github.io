@@ -9,7 +9,6 @@ nav {
 
 .caixa {
 	width: 940px;
-	position: relative;
 	margin: 0 60%;
 }
 
@@ -84,7 +83,7 @@ strong {
 
 .botao-secao li {
     display: inline-block;
-    margin: 0 5%;
+    margin: 5% 5%;
 
 }
 
@@ -94,11 +93,10 @@ strong {
 }
 
 footer {
-    color: white;
-    text-align: center;
-    margin: 80px 0 0;
-    padding: 30px 20px;
-    background: rgba(128, 128, 128, 0.684)
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+    color: #F6F6F6;
 }
 
 header {
