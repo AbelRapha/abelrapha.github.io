@@ -46,6 +46,10 @@ header{
     position: absolute;
 }
 
+.container-botao{
+    display: none;
+}
+
 .container-botao:checked ~ .lista-menu{
     display: block;
 

@@ -14,7 +14,7 @@ body {
 
 .container-conteudo {
     color:var(--branco);
-    width: 40%;
+    width: 50%;
     margin: 10% 15%;
 }
 
@@ -49,8 +49,17 @@ body {
 
 }
 
+.container-conteudo-tecnologias {
+
+    color:var(--branco);
+    width: 50%;
+    margin: 10% 15%;
+
+}
+
+
 .foto {
-    margin: 30% -30%;
+    margin: 1em -3em;
     width: 90%;
 
 
@@ -68,6 +77,49 @@ body {
 
 }
 
+.container-retrospecto h1 {
+    color: var(--azul);
+    opacity: 0.5;
+}
+
+.tecnologias {
+    flex-wrap: wrap;
+    
+}
+
+.container-tecnologias li {
+	margin: 2em 2em;
+    padding: 2em;
+	box-sizing: border-box;
+	border: 2px solid var(--azul);
+	border-radius: 10px;
+    width: 85%;
+}
+
+.container-tecnologias h2 {
+    font-size: 22px;
+    font-style: bold;
+    padding: 5%;
+    text-align: center;
+}
+
+.container-tecnologias p {
+    font-size: 15px;
+    text-align: center;
+}
+
+.container-tecnologias img {
+    margin: 1em 1em;
+    padding: 1em;
+
+}
+
+.container-tecnologias h1 {
+    color: var(--azul);
+    opacity: 0.5;
+}
+
+
 .rodape {
     color: var(--azul);
     text-align: center;
@@ -75,12 +127,28 @@ body {
 
 @media  screen and (min-width: 728px){
     .container-conteudo h1{
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .container-conteudo p {
         font-size: 18px;
     }
 
+    .botao:hover{
+        transform: scale(1.10);
+        transition: 0.5s;
+    }
 
+    .container-tecnologias li {
+        display: inline-block;
+        text-align: center;
+        width: 35%;
+        vertical-align: top;
+        padding: 50px 0;
+        margin: 3% 1.5%;
+        padding: 30px 20px;
+        box-sizing: border-box;
+        border: 2px solid var(--azul) ;
+        border-radius: 10px;
+    }
 }
