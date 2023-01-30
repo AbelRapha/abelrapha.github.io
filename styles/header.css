@@ -1,3 +1,7 @@
+header{
+    font-family: var(--texto);
+}
+
 .menu-hamburguer {
     width: 32px;   
     height: 32px;
@@ -6,6 +10,7 @@
     background-repeat: no-repeat ;
     display: inline-block;
 }
+
 
 
 .cabecalho {
@@ -20,6 +25,10 @@
     display: flex;
     align-items: center;
     top: 100%;
+}
+
+.container-desktop {
+    display: none;
 }
 
 .container a {
@@ -40,4 +49,40 @@
 .container-botao:checked ~ .lista-menu{
     display: block;
 
+}
+
+@media  screen and (min-width: 728px){
+
+    .menu-hamburguer {
+        display: none;
+    }
+
+    .container-botao {
+        display: none;
+    }
+
+    .container-desktop{
+        display: block
+    }
+
+    .container-desktop ul {
+        display: flex;
+        justify-content: flex-end;
+        margin: 20px 20px;
+    }
+
+    .container-desktop li{
+        margin: 0 20px;
+    }
+
+    .container-desktop a {
+        text-decoration: none;
+        color: var(--azul);
+    }
+
+    header{
+        font-size: 20px;
+    }
+
+    
 }

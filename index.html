@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AbelRapha</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/header.css">
@@ -24,6 +27,13 @@
             </ul>
             <img src="" alt="" srcset="">
         </div>
+        <div class="container-desktop">
+            <ul class="lista-menu-desktop">
+                <li class="lista-menu-titulo">Início</li>
+                <li class="lista-menu-item"><a href="portfolio.html" class="lista-menu-link">Portfólio</a></li>
+                <li class="lista-menu-item"><a href="contato.html" class="lista-menu-link">Contato</a></li>
+            </ul>
+        </div>
         <div class="container">
             <a href="index.html">AbelRapha</a>
         </div>
@@ -34,14 +44,21 @@
             <h1>Eleve seu negócio digital a outro nível com um <strong>Desenvolvedor de qualidade!</strong></h1>
             <p>Olá! Me chamo Abel, sou desenvolvedor e um profissional da área de Dados. Tenho especialidade em Desenvolvimento Web, Ciência de Dados, Análise de dados e conhecimento em infraestrustura cloud. Também faço projetos para pequenos negócios alavancarem suas vendas no meio digitial. Vamos conversar?</p>
             <ul>
-                <li class="botao"><a href="#">Github</a></li>
-                <li class="botao"><a href="#">Linkedin</a></li>
+                <li class="botao"><a href="https://github.com/AbelRapha">Github</a></li>
+                <li class="botao"><a href="https://www.linkedin.com/in/abel-rapha-data-science/">Linkedin</a></li>
             </ul>
         </div>
         <div>
             <img class="foto" src="./img/Foto-principal.png">
         </div>
     </section>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+    intent="WELCOME"
+    chat-title="chatbot"
+    agent-id="b51a7def-ae1d-4b29-9e11-d0955fddc249"
+    language-code="pt-br"
+    ></df-messenger>
     <footer class="rodape">
 
         <p>&copy; Abel Rapha</p>
