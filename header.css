@@ -1,0 +1,43 @@
+.menu-hamburguer {
+    width: 32px;   
+    height: 32px;
+    background-image: url("../site-portfolio/img/menu.svg");
+    background-position: center;
+    background-repeat: no-repeat ;
+    display: inline-block;
+}
+
+
+.cabecalho {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    top: 100%;
+}
+
+.container a {
+    text-decoration: none;
+    color: #fefefe;
+    margin-right: 20px;
+}
+
+.container-imagem {
+    padding: 1em;
+}
+
+.lista-menu{
+    display: none;
+    position: absolute;
+}
+
+.container-botao:checked ~ .lista-menu{
+    display: block;
+
+}

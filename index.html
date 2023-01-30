@@ -4,46 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
+    <title>AbelRapha</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
-    <link rel="" href="">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="header.css">
 </head>
 <body>
-    <header>
-        <div class="caixa">
-            <nav>
-                <ul class="navbar">
-                    <li><a href="index.html">Início</a> </li>
-                    <li><a href="projetos.html">Projetos</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                </ul>
-            </nav>
+
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" class="container-botao" name="" id="menu">
+            <label for="menu">
+                <span class="menu-hamburguer container-imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu-titulo">Início</li>
+                <li class="lista-menu-item"><a href="portfolio.html" class="lista-menu-link">Portfólio</a></li>
+                <li class="lista-menu-item"><a href="contato.html" class="lista-menu-link">Contato</a></li>
+            </ul>
+            <img src="" alt="" srcset=""> 
+        </div>
+        <div class="container">
+            <a href="index.html">AbelRapha</a>
         </div>
     </header>
-    <main>
-        <section class="container-conteudo">
-            <div>
-                <h1 class = "conteudo">Eleve seu negócio digital a outro nível <strong>com um Desenvolvedor de qualidade!</strong> </h1>
-                <p class="conteudo-paragrafo">Olá! Me chamo Abel, sou desenvolvedor e um profissional da área de Dados. Tenho especialidade em Desenvolvimento Web, Ciência de Dados, Análise de dados e conhecimento em infraestrustura cloud. Também faço projetos para pequenos negócios alavancarem suas vendas no meio digitial. Vamos conversar?</p>
-            </div>
-            <img class = "imagem" src="Foto-principal.png">
-        </section>
-        <ul class="botao-secao">
-            <li> <a class="botao" href="github.com/AbelRapha">Github</a></li>
-            <li> <a class="botao" href="https://www.linkedin.com/in/abel-rapha-data-science/">Linkedin</a></li>
-        </ul>      
-    </main>
-    <footer>&copy; Abel 2023</footer>  
-    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-    <df-messenger
-    intent="WELCOME"
-    chat-title="chatbot"
-    agent-id="b51a7def-ae1d-4b29-9e11-d0955fddc249"
-    language-code="pt-br"
-    ></df-messenger>
+
+    <section class="secao1">
+        <div class="container-conteudo">
+            <h1>Eleve seu negócio digital a outro nível com um <strong>Desenvolvedor de qualidade!</strong></h1>
+            <p>Olá! Me chamo Abel, sou desenvolvedor e um profissional da área de Dados. Tenho especialidade em Desenvolvimento Web, Ciência de Dados, Análise de dados e conhecimento em infraestrustura cloud. Também faço projetos para pequenos negócios alavancarem suas vendas no meio digitial. Vamos conversar?</p>
+            <ul>
+                <li class="botao"><a href="#">Github</a></li>
+                <li class="botao"><a href="#">Linkedin</a></li>
+            </ul>
+        </div>
+        <div>
+            <img class="foto" src="../site-portfolio/img/Foto-principal.png">
+        </div>
+    </section>
+    <footer class="rodape">
+
+        <p>&copy; Abel Rapha</p>
+
+    </footer>
+
+
+        
 </body>
 </html>
