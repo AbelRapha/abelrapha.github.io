@@ -1,12 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Contato</title>
 </head>
 <body>
-    
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" class="container-botao" name="" id="menu">
+            <label for="menu">
+                <span class="menu-hamburguer container-imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu-titulo">Início</li>
+                <li class="lista-menu-item"><a href="portfolio.html" class="lista-menu-link">Portfólio</a></li>
+                <li class="lista-menu-item"><a href="contato.html" class="lista-menu-link">Contato</a></li>
+            </ul>
+            <img src="" alt="" srcset="">
+        </div>
+        <div class="container-desktop">
+            <ul class="lista-menu-desktop">
+                <li class="lista-menu-titulo"><a href="index.html">Início </a></li>
+                <li class="lista-menu-item"><a href="portfolio.html" class="lista-menu-link">Portfólio</a></li>
+                <li class="lista-menu-item"><a href="contato.html" class="lista-menu-link">Contato</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <a href="index.html">AbelRapha</a>
+        </div>
+    </header>
+
+    <form action="">
+			<label for="nomesobrenome">Nome e Sobrenome </label>
+			<input type="text" name="" id="nomesobrenome" class="input-padrao" required placeholder="Nome e Sobrenome">
+
+			<label for="email">Email</label>
+			<input type="email" name="" id="email" class="input-padrao" required placeholder="email@email.com">
+
+			<label for="telefone">Telefone</label>
+			<input type="tel" name="" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+
+			<label for="descricao">Descrição</label>
+			<textarea cols="70" rows="10" id="descricao" class="input-padrao" required placeholder="Digite o motivo do seu contato"></textarea> 
+    </form>
+    <div class="botao-enviar">
+        <input type="submit" value="Enviar formulário" class="enviar">
+    </div>
+
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+    intent="WELCOME"
+    chat-title="chatbot"
+    agent-id="b51a7def-ae1d-4b29-9e11-d0955fddc249"
+    language-code="pt-br"
+    ></df-messenger>
+    <footer class="rodape">
+
+        <p>&copy; Abel Rapha</p>
+
+    </footer>
 </body>
 </html>

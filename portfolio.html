@@ -1,12 +1,162 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/portfolio.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Portfólio</title>
 </head>
+
 <body>
-    
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" class="container-botao" name="" id="menu">
+            <label for="menu">
+                <span class="menu-hamburguer container-imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu-titulo">Início</li>
+                <li class="lista-menu-item"><a href="portfolio.html" class="lista-menu-link">Portfólio</a></li>
+                <li class="lista-menu-item"><a href="contato.html" class="lista-menu-link">Contato</a></li>
+            </ul>
+            <img src="" alt="" srcset="">
+        </div>
+        <div class="container-desktop">
+            <ul class="lista-menu-desktop">
+                <li class="lista-menu-titulo"><a href="index.html">Início </a></li>
+                <li class="lista-menu-item"><a href="portfolio.html" class="lista-menu-link">Portfólio</a></li>
+                <li class="lista-menu-item"><a href="contato.html" class="lista-menu-link">Contato</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <a href="index.html">AbelRapha</a>
+        </div>
+    </header>
+    <div class="slides">
+        <section class="slide active-slide">
+        <ul class="tecnologias"> 
+            <li>   
+                <h2>Linguagens</h2>
+                <img src="./img/pthon-logo.svg">
+                <p class="produto-descricao">Python, R, Javascript</p>
+            </li>
+            <li>
+                <h2>Design</h2>
+                <img src="./img/design.svg">
+                <p class="produto-descricao">HTML, CSS, Wordpress</p>
+            </li>
+        </ul>
+          </section>
+          <section class="slide">
+            <ul class="tecnologias">
+                <li>
+                    <h2>BI</h2>
+                    <img src="./img/tableau.svg">
+                    <p class="produto-descricao">Power Bi, Tableau, Data Studio</p>
+                </li>
+                <li>
+                    <h2>Bancos de Dados</h2>
+                    <img src="./img/banco-de-dados.svg">
+                    <p class="produto-descricao">SQL-Server, Postgress, MongoDB</p>
+                </li>
+            </ul>
+          </section>
+          <section class="slide">
+            <ul class="tecnologias">
+                <li>
+                    <h2>Cloud</h2>
+                    <img src="./img/nuvem.svg">
+                    <p class="produto-descricao">AWS, Google Cloud</p>
+                </li>
+            </ul>
+          </section>
+        <div class="botoes-slide"> 
+            <button id="prevBtn">Anterior</button><button id="nextBtn">Próximo</button>        
+        </div>
+    </div>
+
+    <section class="secao2">
+        <div class="container-conteudo container-tecnologias">
+            <h1>Artigos</h1>
+            <ul class="tecnologias">
+                <li>
+                    <h2>Linguagens</h2>
+                    <img src="./img/pthon-logo.svg">
+                    <p class="produto-descricao">Python, R, Javascript</p>
+                </li>
+                <li>
+                    <h2>Design</h2>
+                    <img src="./img/design.svg">
+                    <p class="produto-descricao">HTML, CSS, Wordpress</p>
+                </li>
+                <li>
+                    <h2>BI</h2>
+                    <img src="./img/tableau.svg">
+                    <p class="produto-descricao">Power Bi, Tableau, Data Studio</p>
+                </li>
+                <li>
+                    <h2>Bancos de Dados</h2>
+                    <img src="./img/banco-de-dados.svg">
+                    <p class="produto-descricao">SQL-Server, Postgress, MongoDB</p>
+                </li>
+                <li>
+                    <h2>Cloud</h2>
+                    <img src="./img/nuvem.svg">
+                    <p class="produto-descricao">AWS, Google Cloud</p>
+                </li>
+            </ul>                                
+        </div>
+    </section>
+
+    <section class="secao2">
+        <div class="container-conteudo container-tecnologias">
+            <h1>Vídeos</h1>
+            <ul class="tecnologias">
+                <li>
+                    <h2>Linguagens</h2>
+                    <img src="./img/pthon-logo.svg">
+                    <p class="produto-descricao">Python, R, Javascript</p>
+                </li>
+                <li>
+                    <h2>Design</h2>
+                    <img src="./img/design.svg">
+                    <p class="produto-descricao">HTML, CSS, Wordpress</p>
+                </li>
+                <li>
+                    <h2>BI</h2>
+                    <img src="./img/tableau.svg">
+                    <p class="produto-descricao">Power Bi, Tableau, Data Studio</p>
+                </li>
+                <li>
+                    <h2>Bancos de Dados</h2>
+                    <img src="./img/banco-de-dados.svg">
+                    <p class="produto-descricao">SQL-Server, Postgress, MongoDB</p>
+                </li>
+                <li>
+                    <h2>Cloud</h2>
+                    <img src="./img/nuvem.svg">
+                    <p class="produto-descricao">AWS, Google Cloud</p>
+                </li>
+            </ul>                                
+        </div>
+    </section>
+
+    <script src="./index.js"></script> 
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+    intent="WELCOME"
+    chat-title="chatbot"
+    agent-id="b51a7def-ae1d-4b29-9e11-d0955fddc249"
+    language-code="pt-br"
+    ></df-messenger>
+    <footer class="rodape">
+
+        <p>&copy; Abel Rapha</p>
+
+    </footer>
 </body>
 </html>

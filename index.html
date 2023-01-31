@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/portfolio.css">
 </head>
 <body>
 
@@ -53,20 +54,26 @@
             </div>
         </section>
 
-        <section class="secao2">
-            <div class="container-conteudo container-tecnologias">
-                <h1>Tecnologias</h1>
+        <div class="container-conteudo">
+            <h1 style="color: var(--azul); opacity: 0.5;">Tecnologias</h1>
+        </div>
+        <section class="slides">
+            <section class="slide active-slide">
+            <ul class="tecnologias"> 
+                <li>   
+                    <h2>Linguagens</h2>
+                    <img src="./img/pthon-logo.svg">
+                    <p class="produto-descricao">Python, R, Javascript</p>
+                </li>
+                <li>
+                    <h2>Design</h2>
+                    <img src="./img/design.svg">
+                    <p class="produto-descricao">HTML, CSS, Wordpress</p>
+                </li>
+            </ul>
+              </section>
+              <section class="slide">
                 <ul class="tecnologias">
-                    <li>
-                        <h2>Linguagens</h2>
-                        <img src="./img/pthon-logo.svg">
-                        <p class="produto-descricao">Python, R, Javascript</p>
-                    </li>
-                    <li>
-                        <h2>Design</h2>
-                        <img src="./img/design.svg">
-                        <p class="produto-descricao">HTML, CSS, Wordpress</p>
-                    </li>
                     <li>
                         <h2>BI</h2>
                         <img src="./img/tableau.svg">
@@ -77,12 +84,19 @@
                         <img src="./img/banco-de-dados.svg">
                         <p class="produto-descricao">SQL-Server, Postgress, MongoDB</p>
                     </li>
+                </ul>
+              </section>
+              <section class="slide">
+                <ul class="tecnologias">
                     <li>
                         <h2>Cloud</h2>
                         <img src="./img/nuvem.svg">
                         <p class="produto-descricao">AWS, Google Cloud</p>
                     </li>
-                </ul>                                
+                </ul>
+              </section>
+            <div class="botoes-slide"> 
+                <button id="prevBtn">Anterior</button><button id="nextBtn">Próximo</button>        
             </div>
         </section>
 
@@ -96,6 +110,7 @@
             </div>
         </section>
     </main>
+    <script src="./index.js"></script> 
     <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
     <df-messenger
     intent="WELCOME"
