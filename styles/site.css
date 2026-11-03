@@ -951,7 +951,7 @@ button {
     color: var(--muted);
 }
 
-.contact-cta {
+.cta-row {
     display: flex;
     flex-wrap: wrap;
     gap: 1.25rem;
