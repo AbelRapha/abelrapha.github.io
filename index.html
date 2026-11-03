@@ -2,129 +2,345 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AbelRapha</title>
+    <title>Abel Rapha — Engenheiro de dados e produtos de IA</title>
+    <meta name="description" content="Abel Rapha, engenheiro de dados e analytics. Engenharia de dados, BI e produtos de IA na saúde. Projetos em destaque: Premius, TIC Eixo Norte, NF XML SAMPA, OR Engineering.">
+    <meta name="theme-color" content="#faf9f5">
+    <link rel="icon" type="image/svg+xml" href="./img/favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/header.css">
-    <link rel="stylesheet" href="./styles/portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/site.css">
 </head>
 <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
 
-    <header class="cabecalho">
-        <div class="container">
-            <input type="checkbox" class="container-botao" name="" id="menu">
-            <label for="menu">
-                <span class="menu-hamburguer container-imagem"></span>
-            </label>
-            <ul class="lista-menu">
-                <li class="lista-menu-titulo">Início</li>
-                <li class="lista-menu-item"><a href="portfolio.html" class="lista-menu-link">Portfólio</a></li>
-                <li class="lista-menu-item"><a href="contato.html" class="lista-menu-link">Contato</a></li>
-            </ul>
-            <img src="" alt="" srcset="">
-        </div>
-        <div class="container-desktop">
-            <ul class="lista-menu-desktop">
-                <li class="lista-menu-titulo"><a href="index.html">Início </a></li>
-                <li class="lista-menu-item"><a href="portfolio.html" class="lista-menu-link">Portfólio</a></li>
-                <li class="lista-menu-item"><a href="contato.html" class="lista-menu-link">Contato</a></li>
-            </ul>
-        </div>
-        <div class="container">
-            <a href="index.html">AbelRapha</a>
+    <header class="site-header" id="site-header" data-open="false">
+        <div class="container nav">
+            <a class="brand" href="index.html">
+                <span class="brand__mark" aria-hidden="true">A</span>
+                Abel Rapha
+            </a>
+
+            <nav class="nav__links" id="nav-links" aria-label="Principal">
+                <a class="nav__link" href="index.html" aria-current="page">Início</a>
+                <a class="nav__link" href="#projetos">Projetos</a>
+                <a class="nav__link" href="#sobre">Sobre</a>
+                <a class="nav__link" href="contato.html">Contato</a>
+            </nav>
+
+            <div class="nav__actions">
+                <a class="btn btn--primary" href="contato.html">Vamos conversar</a>
+                <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menu">
+                    <span></span>
+                </button>
+            </div>
         </div>
     </header>
-    <main>
-        <section class="secao1">
-            <div class="container-conteudo">
-                <h1>Eleve seu negócio digital a outro nível com um <strong>Desenvolvedor de qualidade!</strong></h1>
-                <p>Olá! Me chamo Abel, sou desenvolvedor e um profissional da área de Dados. Tenho especialidade em Desenvolvimento Web, Ciência de Dados, Análise de dados e conhecimento em infraestrustura cloud. Também faço projetos para pequenos negócios alavancarem suas vendas no meio digitial. Vamos conversar?</p>
-                <ul>
-                    <li class="botao"><a href="https://github.com/AbelRapha">Github</a></li>
-                    <li class="botao"><a href="https://www.linkedin.com/in/abel-rapha-data-science/">Linkedin</a></li>
-                </ul>
-            </div>
-            <div>
-                <img class="foto" src="./img/Foto-principal.png">
+
+    <main id="conteudo">
+        <section class="hero">
+            <div class="container hero__grid">
+                <div class="hero__copy">
+                    <p class="eyebrow">Olá, eu sou Abel</p>
+                    <h1 class="hero__title">Engenheiro de dados<br>e <em>produtos de IA</em></h1>
+                    <p class="hero__lede">
+                        Trabalho com engenharia de dados, analytics e inteligência artificial. Hoje, na Hapvida,
+                        modelo dados clínicos e construo painéis e indicadores que a operação e a auditoria médica
+                        usam para decidir.
+                    </p>
+
+                    <div class="hero__cta">
+                        <a class="btn btn--primary" href="contato.html">
+                            Vamos conversar
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+                        </a>
+                        <a class="btn btn--ghost" href="#projetos">Ver projetos</a>
+                        <details class="cv-menu">
+                            <summary class="btn btn--ghost">
+                                Baixar CV
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>
+                            </summary>
+                            <ul class="cv-menu__list">
+                                <li><a href="downloads/CV Abel Rapha - PT-BR.pdf" download>Português (PT-BR)</a></li>
+                                <li><a href="downloads/CV Abel Rapha - EN.pdf" download>English (EN)</a></li>
+                                <li><a href="downloads/CV Abel Rapha - ES.pdf" download>Español (ES)</a></li>
+                            </ul>
+                        </details>
+                    </div>
+
+                    <div class="socials">
+                        <span class="socials__label">Me encontre:</span>
+                        <a class="social" href="https://github.com/AbelRapha" target="_blank" rel="noopener" aria-label="GitHub de Abel Rapha">
+                            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.6-1.4-1.4-1.8-1.4-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5Z"/></svg>
+                        </a>
+                        <a class="social" href="https://www.linkedin.com/in/abel-rapha/" target="_blank" rel="noopener" aria-label="LinkedIn de Abel Rapha">
+                            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm6 0h3.8v1.7h.1c.5-.9 1.8-1.9 3.6-1.9 3.9 0 4.6 2.5 4.6 5.8V21h-4v-5.6c0-1.3 0-3-1.9-3s-2.1 1.4-2.1 2.9V21H9V9Z"/></svg>
+                        </a>
+                        <a class="social" href="mailto:contatobeldev@gmail.com" aria-label="Enviar email para Abel Rapha">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero__media">
+                    <div class="portrait">
+                        <svg class="portrait__squiggle" viewBox="0 0 64 44" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="M4 34 18 12l12 18L44 10l16 18"/>
+                        </svg>
+                        <div class="portrait__frame">
+                            <img src="./img/Imagem Abel Rapha.jpeg" alt="Retrato de Abel Rapha Macedo" width="640" height="640">
+                        </div>
+                        <div class="portrait__blob" aria-hidden="true"></div>
+                        <a class="scroll-badge" href="#sobre" aria-label="Ir para a seção sobre">
+                            <svg class="scroll-badge__ring" viewBox="0 0 120 120" aria-hidden="true">
+                                <defs>
+                                    <path id="badge-circle" d="M60,60 m-44,0 a44,44 0 1,1 88,0 a44,44 0 1,1 -88,0"/>
+                                </defs>
+                                <text><textPath href="#badge-circle">Sobre mim • scroll down • </textPath></text>
+                            </svg>
+                            <span class="scroll-badge__arrow" aria-hidden="true">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <div class="container-conteudo">
-            <h1 style="color: var(--azul); opacity: 0.5;">Tecnologias</h1>
+        <div class="marquee" aria-hidden="true">
+            <div class="marquee__track">
+                <span class="marquee__item">Engenharia de Dados <span class="marquee__star">✦</span></span>
+                <span class="marquee__item">Analytics <span class="marquee__star">✦</span></span>
+                <span class="marquee__item">Inteligência Artificial <span class="marquee__star">✦</span></span>
+                <span class="marquee__item">Business Intelligence <span class="marquee__star">✦</span></span>
+                <span class="marquee__item">Pesquisa Operacional <span class="marquee__star">✦</span></span>
+                <span class="marquee__item">Automação <span class="marquee__star">✦</span></span>
+                <span class="marquee__item">Engenharia de Dados <span class="marquee__star">✦</span></span>
+                <span class="marquee__item">Analytics <span class="marquee__star">✦</span></span>
+                <span class="marquee__item">Inteligência Artificial <span class="marquee__star">✦</span></span>
+                <span class="marquee__item">Business Intelligence <span class="marquee__star">✦</span></span>
+                <span class="marquee__item">Pesquisa Operacional <span class="marquee__star">✦</span></span>
+                <span class="marquee__item">Automação <span class="marquee__star">✦</span></span>
+            </div>
         </div>
-        <section class="slides">
-            <section class="slide active-slide">
-            <ul class="tecnologias"> 
-                <li>   
-                    <h2>Linguagens</h2>
-                    <img src="./img/pthon-logo.svg">
-                    <p class="produto-descricao">Python, R, Javascript</p>
-                </li>
-                <li>
-                    <h2>Design</h2>
-                    <img src="./img/design.svg">
-                    <p class="produto-descricao">HTML, CSS, Wordpress</p>
-                </li>
-            </ul>
-              </section>
-              <section class="slide">
-                <ul class="tecnologias">
-                    <li>
-                        <h2>BI</h2>
-                        <img src="./img/tableau.svg">
-                        <p class="produto-descricao">Power Bi, Tableau, Data Studio</p>
-                    </li>
-                    <li>
-                        <h2>Bancos de Dados</h2>
-                        <img src="./img/banco-de-dados.svg">
-                        <p class="produto-descricao">SQL-Server, Postgress, MongoDB</p>
-                    </li>
-                </ul>
-              </section>
-              <section class="slide">
-                <ul class="tecnologias">
-                    <li>
-                        <h2>Cloud</h2>
-                        <img src="./img/nuvem.svg">
-                        <p class="produto-descricao">AWS, Google Cloud</p>
-                    </li>
-                </ul>
-              </section>
-            <div class="botoes-slide"> 
-                <button id="prevBtn">Anterior</button><button id="nextBtn">Próximo</button>        
+
+        <div class="container">
+            <div class="stats reveal">
+                <div class="stat">
+                    <span class="stat__value">+5 anos</span>
+                    <span class="stat__label">trabalhando com dados, desde 2021</span>
+                </div>
+                <div class="stat">
+                    <span class="stat__value">+300</span>
+                    <span class="stat__label">contratos registrados na Premius</span>
+                </div>
+                <div class="stat">
+                    <span class="stat__value">2M+</span>
+                    <span class="stat__label">consultas transcritas por IA</span>
+                </div>
+                <div class="stat">
+                    <span class="stat__value">R$ 4.000</span>
+                    <span class="stat__label">ganhos no hackathon da Hidrovias do Brasil</span>
+                </div>
+            </div>
+        </div>
+
+        <section class="section" id="projetos">
+            <div class="container">
+                <div class="section-head reveal">
+                    <div>
+                        <p class="eyebrow">Portfólio</p>
+                        <h2>Projetos em destaque</h2>
+                    </div>
+                    <p>Produtos que já estão no ar, de uma plataforma SaaS a uma calculadora de frete premiada em hackathon.</p>
+                </div>
+
+                <div class="projects">
+                    <article class="card card--featured reveal">
+                        <div class="card__body">
+                            <div class="card__top">
+                                <span class="card__index">01</span>
+                                <a class="card__arrow" href="https://app.usepremius.com" target="_blank" rel="noopener" aria-label="Abrir o Premius">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+                                </a>
+                            </div>
+                            <h3 class="card__title">Premius</h3>
+                            <p class="card__text">
+                                Plataforma SaaS de gestão de carteira para corretores de seguros. Mais de 300
+                                contratos já registrados pelos usuários iniciais.
+                            </p>
+                            <ul class="card__tags">
+                                <li class="tag">SaaS</li>
+                                <li class="tag">Produto</li>
+                                <li class="tag">Dados</li>
+                            </ul>
+                        </div>
+                        <div class="card__visual" aria-hidden="true">
+                            <div class="visual-row"><span>Premius</span><strong>SaaS</strong></div>
+                            <div class="visual-row"><span>Contratos</span><strong>+300</strong></div>
+                            <div class="visual-row"><span>Status</span><strong>No ar</strong></div>
+                        </div>
+                    </article>
+
+                    <article class="card reveal">
+                        <div class="card__top">
+                            <span class="card__index">02</span>
+                            <a class="card__arrow" href="https://projetoticeixonorte.vercel.app" target="_blank" rel="noopener" aria-label="Abrir TIC Eixo Norte">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+                            </a>
+                        </div>
+                        <h3 class="card__title">TIC Eixo Norte</h3>
+                        <p class="card__text">
+                            Acompanhamento do TIC e do impacto na mobilidade no entorno da cidade, com painel
+                            de indicadores para leitura rápida do cenário.
+                        </p>
+                        <ul class="card__tags">
+                            <li class="tag">Dados públicos</li>
+                            <li class="tag">Mobilidade</li>
+                            <li class="tag">Painel</li>
+                        </ul>
+                    </article>
+
+                    <article class="card reveal">
+                        <div class="card__top">
+                            <span class="card__index">03</span>
+                            <a class="card__arrow" href="https://nf-csv-to-xml-sampa.vercel.app" target="_blank" rel="noopener" aria-label="Abrir conversor NF CSV para XML">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+                            </a>
+                        </div>
+                        <h3 class="card__title">NF CSV → XML SAMPA</h3>
+                        <p class="card__text">
+                            Converte as notas fiscais da prefeitura de São Paulo em XML para envio ao cliente,
+                            no lugar da conversão manual.
+                        </p>
+                        <ul class="card__tags">
+                            <li class="tag">Automação</li>
+                            <li class="tag">NFS-e</li>
+                            <li class="tag">Python</li>
+                        </ul>
+                    </article>
+
+                    <article class="card reveal">
+                        <div class="card__top">
+                            <span class="card__index">04</span>
+                            <a class="card__arrow" href="https://github.com/AbelRapha/hidrovias_hackathon" target="_blank" rel="noopener" aria-label="Abrir calculadora de frete hidroviário no GitHub">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+                            </a>
+                        </div>
+                        <h3 class="card__title">Calculadora de frete hidroviário</h3>
+                        <p class="card__text">
+                            Estimativa de frete para embarcações nos cenários que a Hidrovias do Brasil enfrenta.
+                            Venceu o hackathon da empresa.
+                        </p>
+                        <ul class="card__tags">
+                            <li class="tag">Hackathon</li>
+                            <li class="tag">Pesquisa Operacional</li>
+                        </ul>
+                    </article>
+
+                    <article class="card reveal">
+                        <div class="card__top">
+                            <span class="card__index">05</span>
+                            <a class="card__arrow" href="https://or-engineering.vercel.app" target="_blank" rel="noopener" aria-label="Abrir OR Engineering">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+                            </a>
+                        </div>
+                        <h3 class="card__title">OR Engineering</h3>
+                        <p class="card__text">
+                            Ferramenta usada na disciplina de Pesquisa Operacional da UNICAMP para montar
+                            matrizes origem-destino com vias do OpenStreetMap, no lugar da extração manual
+                            pelo Google Maps.
+                        </p>
+                        <ul class="card__tags">
+                            <li class="tag">OpenStreetMap</li>
+                            <li class="tag">UNICAMP</li>
+                            <li class="tag">TypeScript</li>
+                        </ul>
+                    </article>
+                </div>
+
+                <div class="projects__more">
+                    <a class="btn btn--ghost" href="portfolio.html">
+                        Ver todos os projetos
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                    </a>
+                </div>
             </div>
         </section>
 
-        <section>
-            <div class="container-conteudo container-retrospecto">
-                <h1>Retrospecto</h1>
-                    <p>Dez (2021) - Mar (2022): Estágio <strong>analista de dados</strong>  para consultoria imobiliária, analisava dados públicos e principalmente captava anúncios por meio de scraping de sites de anunciantes, para gerar relatórios sobre o mercado imobiliário.</p>
-                    <p>Mar (2022) - Atual
-                        <strong>Cientista de dados</strong> para a analisar impactos na TI, atuando com processos de ITSM para resolução de incidentes de problemas, por meio de relatórios com Tableau e criação de análises e Dashboards analíticos para melhorar a visão e a qualidade na resolução das atividades do time de suporte.</p>
-                
+        <section class="section section--alt" id="sobre">
+            <div class="container about">
+                <div class="reveal">
+                    <p class="eyebrow">Sobre</p>
+                    <h2>Do dado bruto à decisão</h2>
+                </div>
+                <div class="about__body reveal">
+                    <p>
+                        Comecei em 2021 analisando dados públicos de imóveis. Depois passei por consultoria,
+                        governança de TI e produtos de IA na saúde. Gosto de problemas em que o dado ainda
+                        não está pronto: extrair, modelar, medir e entregar algo que seja utilizado para
+                        tomada de decisões estratégicas.
+                    </p>
+                    <p>
+                        Hoje curso Engenharia de Transportes na UNICAMP, com pesquisa em pesquisa operacional
+                        e metaheurísticas. Fora do trabalho, mantenho projetos abertos de automação, BI e
+                        ferramentas de otimização.
+                    </p>
+
+                    <div class="timeline">
+                        <div class="timeline__item">
+                            <span class="timeline__role">Engenharia de Dados e Analytics</span>
+                            <span class="timeline__date">Out 2024 até hoje</span>
+                            <span class="timeline__org">Hapvida · Inovação</span>
+                        </div>
+                        <div class="timeline__item">
+                            <span class="timeline__role">Profissional de dados</span>
+                            <span class="timeline__date">Dez 2023 até hoje</span>
+                            <span class="timeline__org">LOGFIDS IT · Consultoria</span>
+                        </div>
+                        <div class="timeline__item">
+                            <span class="timeline__role">Analista de Dados</span>
+                            <span class="timeline__date">Mar 2022 a Set 2024</span>
+                            <span class="timeline__org">Porto Seguro via Stefanini</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="container contact__inner reveal">
+                <p class="eyebrow">Contato</p>
+                <h2>Vamos conversar sobre o próximo projeto</h2>
+                <p>Me conta o problema e eu digo se consigo ajudar. Se preferir, chama no LinkedIn.</p>
+                <div class="contact__actions">
+                    <a class="btn btn--light" href="mailto:contatobeldev@gmail.com">
+                        contatobeldev@gmail.com
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+                    </a>
+                    <a class="contact__mail" href="https://www.linkedin.com/in/abel-rapha/" target="_blank" rel="noopener">LinkedIn</a>
+                </div>
             </div>
         </section>
     </main>
-    <script src="./index.js"></script> 
-    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-    <df-messenger
-    intent="WELCOME"
-    chat-title="chatbot"
-    agent-id="b51a7def-ae1d-4b29-9e11-d0955fddc249"
-    language-code="pt-br"
-    ></df-messenger>
-    <footer class="rodape">
 
-        <p>&copy; Abel Rapha</p>
-
+    <footer class="site-footer">
+        <div class="container footer__inner">
+            <a class="brand" href="index.html">
+                <span class="brand__mark" aria-hidden="true">A</span>
+                Abel Rapha
+            </a>
+            <nav class="footer__links" aria-label="Rodapé">
+                <a href="#projetos">Projetos</a>
+                <a href="#sobre">Sobre</a>
+                <a href="contato.html">Contato</a>
+                <a href="https://github.com/AbelRapha" target="_blank" rel="noopener">GitHub</a>
+            </nav>
+            <p class="footer__copy">&copy; <span data-year>2026</span> Abel Rapha</p>
+        </div>
     </footer>
 
-
-        
+    <script src="./script.js"></script>
 </body>
 </html>

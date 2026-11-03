@@ -1,0 +1,57 @@
+# Currículos: ignora a pasta, exceto os PDFs gerados por idioma
+Cv/*
+!Cv/CV Abel Rapha - PT-BR.pdf
+!Cv/CV Abel Rapha - EN.pdf
+!Cv/CV Abel Rapha - ES.pdf
+
+# Sistema operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.history/
+
+# Dependências e build (para quando o site ganhar ferramentas)
+node_modules/
+dist/
+build/
+.cache/
+.parcel-cache/
+.sass-cache/
+.vite/
+
+# Variáveis de ambiente e segredos
+.env
+.env.*
+!.env.example
+
+# Logs e temporários
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+tmp/
+temp/
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Backups e patches
+*.bak
+*.orig
+*.rej

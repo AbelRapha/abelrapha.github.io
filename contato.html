@@ -2,67 +2,131 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/header.css">
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/style.css">
-    <title>Contato</title>
+    <title>Contato — Abel Rapha</title>
+    <meta name="description" content="Fale com Abel Rapha sobre projetos de engenharia de dados, analytics, BI e produtos de IA.">
+    <meta name="theme-color" content="#faf9f5">
+    <link rel="icon" type="image/svg+xml" href="./img/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/site.css">
 </head>
 <body>
-    <header class="cabecalho">
-        <div class="container">
-            <input type="checkbox" class="container-botao" name="" id="menu">
-            <label for="menu">
-                <span class="menu-hamburguer container-imagem"></span>
-            </label>
-            <ul class="lista-menu">
-                <li class="lista-menu-titulo">Início</li>
-                <li class="lista-menu-item"><a href="portfolio.html" class="lista-menu-link">Portfólio</a></li>
-                <li class="lista-menu-item"><a href="contato.html" class="lista-menu-link">Contato</a></li>
-            </ul>
-            <img src="" alt="" srcset="">
-        </div>
-        <div class="container-desktop">
-            <ul class="lista-menu-desktop">
-                <li class="lista-menu-titulo"><a href="index.html">Início </a></li>
-                <li class="lista-menu-item"><a href="portfolio.html" class="lista-menu-link">Portfólio</a></li>
-                <li class="lista-menu-item"><a href="contato.html" class="lista-menu-link">Contato</a></li>
-            </ul>
-        </div>
-        <div class="container">
-            <a href="index.html">AbelRapha</a>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="site-header" id="site-header" data-open="false">
+        <div class="container nav">
+            <a class="brand" href="index.html">
+                <span class="brand__mark" aria-hidden="true">A</span>
+                Abel Rapha
+            </a>
+
+            <nav class="nav__links" id="nav-links" aria-label="Principal">
+                <a class="nav__link" href="index.html">Início</a>
+                <a class="nav__link" href="portfolio.html">Projetos</a>
+                <a class="nav__link" href="index.html#sobre">Sobre</a>
+                <a class="nav__link" href="contato.html" aria-current="page">Contato</a>
+            </nav>
+
+            <div class="nav__actions">
+                <a class="btn btn--primary" href="mailto:contatobeldev@gmail.com">Enviar email</a>
+                <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menu">
+                    <span></span>
+                </button>
+            </div>
         </div>
     </header>
 
-    <form action="">
-			<label for="nomesobrenome">Nome e Sobrenome </label>
-			<input type="text" name="" id="nomesobrenome" class="input-padrao" required placeholder="Nome e Sobrenome">
+    <main id="conteudo">
+        <section class="page-hero">
+            <div class="container">
+                <p class="eyebrow">Contato</p>
+                <h1>Vamos conversar</h1>
+                <p>
+                    Conte o que você precisa: engenharia de dados, painéis, automação ou um produto de IA
+                    do zero. Respondo pelo email abaixo.
+                </p>
+            </div>
+        </section>
 
-			<label for="email">Email</label>
-			<input type="email" name="" id="email" class="input-padrao" required placeholder="email@email.com">
+        <section class="section">
+            <div class="container contact-grid">
+                <div class="contact-info reveal">
+                    <div class="info-item">
+                        <span class="info-item__label">Email</span>
+                        <a href="mailto:contatobeldev@gmail.com">contatobeldev@gmail.com</a>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-item__label">LinkedIn</span>
+                        <a href="https://www.linkedin.com/in/abel-rapha/" target="_blank" rel="noopener">/in/abel-rapha</a>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-item__label">GitHub</span>
+                        <a href="https://github.com/AbelRapha" target="_blank" rel="noopener">/AbelRapha</a>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-item__label">Localização</span>
+                        <span>São Paulo, Brasil</span>
+                    </div>
+                </div>
 
-			<label for="telefone">Telefone</label>
-			<input type="tel" name="" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+                <form class="form reveal" data-contact-form novalidate>
+                    <div class="field-row">
+                        <div class="field">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" autocomplete="name" placeholder="Seu nome" required>
+                        </div>
+                        <div class="field">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" autocomplete="email" placeholder="voce@email.com" required>
+                        </div>
+                    </div>
 
-			<label for="descricao">Descrição</label>
-			<textarea cols="70" rows="10" id="descricao" class="input-padrao" required placeholder="Digite o motivo do seu contato"></textarea> 
-    </form>
-    <div class="botao-enviar">
-        <input type="submit" value="Enviar formulário" class="enviar">
-    </div>
+                    <div class="field">
+                        <label for="assunto">Assunto</label>
+                        <input type="text" id="assunto" name="assunto" placeholder="Sobre o que você quer falar" required>
+                    </div>
 
-    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-    <df-messenger
-    intent="WELCOME"
-    chat-title="chatbot"
-    agent-id="b51a7def-ae1d-4b29-9e11-d0955fddc249"
-    language-code="pt-br"
-    ></df-messenger>
-    <footer class="rodape">
+                    <div class="field">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" placeholder="Descreva o projeto, o problema ou a dúvida" required></textarea>
+                    </div>
 
-        <p>&copy; Abel Rapha</p>
+                    <p class="form__note">
+                        O formulário abre seu app de email com a mensagem já preenchida. Nada é enviado
+                        por um servidor.
+                    </p>
 
+                    <div>
+                        <button class="btn btn--primary" type="submit">
+                            Enviar mensagem
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+                        </button>
+                    </div>
+
+                    <p class="form__status" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer__inner">
+            <a class="brand" href="index.html">
+                <span class="brand__mark" aria-hidden="true">A</span>
+                Abel Rapha
+            </a>
+            <nav class="footer__links" aria-label="Rodapé">
+                <a href="index.html#projetos">Projetos</a>
+                <a href="index.html#sobre">Sobre</a>
+                <a href="contato.html">Contato</a>
+                <a href="https://github.com/AbelRapha" target="_blank" rel="noopener">GitHub</a>
+            </nav>
+            <p class="footer__copy">&copy; <span data-year>2026</span> Abel Rapha</p>
+        </div>
     </footer>
+
+    <script src="./script.js"></script>
 </body>
 </html>

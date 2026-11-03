@@ -2,161 +2,235 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/header.css">
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/portfolio.css">
-    <link rel="stylesheet" href="./styles/style.css">
-    <title>Portfólio</title>
+    <title>Portfólio — Abel Rapha</title>
+    <meta name="description" content="Projetos de Abel Rapha: Premius, TIC Eixo Norte, conversor de NF para XML, calculadora de frete hidroviário, OR Engineering e automações.">
+    <meta name="theme-color" content="#faf9f5">
+    <link rel="icon" type="image/svg+xml" href="./img/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/site.css">
 </head>
-
 <body>
-    <header class="cabecalho">
-        <div class="container">
-            <input type="checkbox" class="container-botao" name="" id="menu">
-            <label for="menu">
-                <span class="menu-hamburguer container-imagem"></span>
-            </label>
-            <ul class="lista-menu">
-                <li class="lista-menu-titulo">Início</li>
-                <li class="lista-menu-item"><a href="portfolio.html" class="lista-menu-link">Portfólio</a></li>
-                <li class="lista-menu-item"><a href="contato.html" class="lista-menu-link">Contato</a></li>
-            </ul>
-            <img src="" alt="" srcset="">
-        </div>
-        <div class="container-desktop">
-            <ul class="lista-menu-desktop">
-                <li class="lista-menu-titulo"><a href="index.html">Início </a></li>
-                <li class="lista-menu-item"><a href="portfolio.html" class="lista-menu-link">Portfólio</a></li>
-                <li class="lista-menu-item"><a href="contato.html" class="lista-menu-link">Contato</a></li>
-            </ul>
-        </div>
-        <div class="container">
-            <a href="index.html">AbelRapha</a>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="site-header" id="site-header" data-open="false">
+        <div class="container nav">
+            <a class="brand" href="index.html">
+                <span class="brand__mark" aria-hidden="true">A</span>
+                Abel Rapha
+            </a>
+
+            <nav class="nav__links" id="nav-links" aria-label="Principal">
+                <a class="nav__link" href="index.html">Início</a>
+                <a class="nav__link" href="portfolio.html" aria-current="page">Projetos</a>
+                <a class="nav__link" href="index.html#sobre">Sobre</a>
+                <a class="nav__link" href="contato.html">Contato</a>
+            </nav>
+
+            <div class="nav__actions">
+                <a class="btn btn--primary" href="contato.html">Vamos conversar</a>
+                <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menu">
+                    <span></span>
+                </button>
+            </div>
         </div>
     </header>
-    <div class="slides">
-        <section class="slide active-slide">
-        <ul class="tecnologias"> 
-            <li>   
-                <h2>Linguagens</h2>
-                <img src="./img/pthon-logo.svg">
-                <p class="produto-descricao">Python, R, Javascript</p>
-            </li>
-            <li>
-                <h2>Design</h2>
-                <img src="./img/design.svg">
-                <p class="produto-descricao">HTML, CSS, Wordpress</p>
-            </li>
-        </ul>
-          </section>
-          <section class="slide">
-            <ul class="tecnologias">
-                <li>
-                    <h2>BI</h2>
-                    <img src="./img/tableau.svg">
-                    <p class="produto-descricao">Power Bi, Tableau, Data Studio</p>
-                </li>
-                <li>
-                    <h2>Bancos de Dados</h2>
-                    <img src="./img/banco-de-dados.svg">
-                    <p class="produto-descricao">SQL-Server, Postgress, MongoDB</p>
-                </li>
-            </ul>
-          </section>
-          <section class="slide">
-            <ul class="tecnologias">
-                <li>
-                    <h2>Cloud</h2>
-                    <img src="./img/nuvem.svg">
-                    <p class="produto-descricao">AWS, Google Cloud</p>
-                </li>
-            </ul>
-          </section>
-        <div class="botoes-slide"> 
-            <button id="prevBtn">Anterior</button><button id="nextBtn">Próximo</button>        
+
+    <main id="conteudo">
+        <section class="page-hero">
+            <div class="container">
+                <p class="eyebrow">Portfólio</p>
+                <h1>Projetos</h1>
+                <p>
+                    Produtos, automações e ferramentas que construí. A maioria está no ar e pode ser aberta
+                    no navegador; o restante está no GitHub.
+                </p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="projects">
+                    <article class="card reveal">
+                        <div class="card__top">
+                            <span class="card__index">01</span>
+                            <a class="card__arrow" href="https://app.usepremius.com" target="_blank" rel="noopener" aria-label="Abrir o Premius">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+                            </a>
+                        </div>
+                        <h2 class="card__title">Premius</h2>
+                        <p class="card__text">
+                            Plataforma SaaS de gestão de carteira para corretores de seguros, com mais de 300
+                            contratos registrados pelos usuários iniciais.
+                        </p>
+                        <ul class="card__tags">
+                            <li class="tag">SaaS</li>
+                            <li class="tag">Produto</li>
+                            <li class="tag">Dados</li>
+                        </ul>
+                    </article>
+
+                    <article class="card reveal">
+                        <div class="card__top">
+                            <span class="card__index">02</span>
+                            <a class="card__arrow" href="https://projetoticeixonorte.vercel.app" target="_blank" rel="noopener" aria-label="Abrir TIC Eixo Norte">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+                            </a>
+                        </div>
+                        <h2 class="card__title">TIC Eixo Norte</h2>
+                        <p class="card__text">
+                            Acompanhamento do TIC e do impacto na mobilidade no entorno da cidade, com painel
+                            de indicadores para leitura rápida do cenário.
+                        </p>
+                        <ul class="card__tags">
+                            <li class="tag">Dados públicos</li>
+                            <li class="tag">Mobilidade</li>
+                            <li class="tag">Painel</li>
+                        </ul>
+                    </article>
+
+                    <article class="card reveal">
+                        <div class="card__top">
+                            <span class="card__index">03</span>
+                            <a class="card__arrow" href="https://nf-csv-to-xml-sampa.vercel.app" target="_blank" rel="noopener" aria-label="Abrir conversor NF CSV para XML">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+                            </a>
+                        </div>
+                        <h2 class="card__title">NF CSV → XML SAMPA</h2>
+                        <p class="card__text">
+                            Converte as notas fiscais da prefeitura de São Paulo em XML para envio ao cliente,
+                            no lugar da conversão manual.
+                        </p>
+                        <ul class="card__tags">
+                            <li class="tag">Automação</li>
+                            <li class="tag">NFS-e</li>
+                            <li class="tag">Python</li>
+                        </ul>
+                    </article>
+
+                    <article class="card reveal">
+                        <div class="card__top">
+                            <span class="card__index">04</span>
+                            <a class="card__arrow" href="https://github.com/AbelRapha/hidrovias_hackathon" target="_blank" rel="noopener" aria-label="Abrir calculadora de frete hidroviário no GitHub">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+                            </a>
+                        </div>
+                        <h2 class="card__title">Calculadora de frete hidroviário</h2>
+                        <p class="card__text">
+                            Estimativa de frete para embarcações nos cenários que a Hidrovias do Brasil enfrenta.
+                            Venceu o hackathon da empresa.
+                        </p>
+                        <ul class="card__tags">
+                            <li class="tag">Hackathon</li>
+                            <li class="tag">Pesquisa Operacional</li>
+                        </ul>
+                    </article>
+
+                    <article class="card reveal">
+                        <div class="card__top">
+                            <span class="card__index">05</span>
+                            <a class="card__arrow" href="https://or-engineering.vercel.app" target="_blank" rel="noopener" aria-label="Abrir OR Engineering">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+                            </a>
+                        </div>
+                        <h2 class="card__title">OR Engineering</h2>
+                        <p class="card__text">
+                            Ferramenta usada na disciplina de Pesquisa Operacional da UNICAMP para montar
+                            matrizes origem-destino com vias do OpenStreetMap, no lugar da extração manual
+                            pelo Google Maps.
+                        </p>
+                        <ul class="card__tags">
+                            <li class="tag">OpenStreetMap</li>
+                            <li class="tag">UNICAMP</li>
+                            <li class="tag">TypeScript</li>
+                        </ul>
+                    </article>
+
+                    <article class="card reveal">
+                        <div class="card__top">
+                            <span class="card__index">06</span>
+                            <a class="card__arrow" href="https://github.com/AbelRapha/Dashboards-PBI" target="_blank" rel="noopener" aria-label="Abrir dashboards de Power BI no GitHub">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+                            </a>
+                        </div>
+                        <h2 class="card__title">Dashboards Power BI</h2>
+                        <p class="card__text">
+                            Painéis de vendas, RH e produção, usados como exemplos de análise por segmento
+                            de negócio.
+                        </p>
+                        <ul class="card__tags">
+                            <li class="tag">Power BI</li>
+                            <li class="tag">Visualização</li>
+                        </ul>
+                    </article>
+
+                    <article class="card reveal">
+                        <div class="card__top">
+                            <span class="card__index">07</span>
+                            <a class="card__arrow" href="https://github.com/AbelRapha/n8n_finances_agent" target="_blank" rel="noopener" aria-label="Abrir n8n Finances Agent no GitHub">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+                            </a>
+                        </div>
+                        <h2 class="card__title">n8n Finances Agent</h2>
+                        <p class="card__text">
+                            Fluxo de automação para finanças pessoais que registra e consulta transações em
+                            linguagem natural, integrando n8n, Google Sheets e Telegram.
+                        </p>
+                        <ul class="card__tags">
+                            <li class="tag">n8n</li>
+                            <li class="tag">Automação</li>
+                            <li class="tag">Agente</li>
+                        </ul>
+                    </article>
+
+                    <article class="card reveal">
+                        <div class="card__top">
+                            <span class="card__index">08</span>
+                            <a class="card__arrow" href="https://www.youtube.com/watch?v=GICcdmUZkdw&amp;list=PLVuyr40ZACX-ZiFgM7fUvLRervb5w-Mju" target="_blank" rel="noopener" aria-label="Abrir playlist de automação do Jira no YouTube">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+                            </a>
+                        </div>
+                        <h2 class="card__title">Automação do Jira com Python</h2>
+                        <p class="card__text">
+                            Playlist de aulas sobre a API do Jira para automação e coleta de dados, a partir
+                            da documentação da Atlassian.
+                        </p>
+                        <ul class="card__tags">
+                            <li class="tag">Jira</li>
+                            <li class="tag">Python</li>
+                            <li class="tag">Aulas</li>
+                        </ul>
+                    </article>
+                </div>
+
+                <div class="projects__more">
+                    <a class="btn btn--primary" href="https://github.com/AbelRapha" target="_blank" rel="noopener">
+                        Ver todos no GitHub
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer__inner">
+            <a class="brand" href="index.html">
+                <span class="brand__mark" aria-hidden="true">A</span>
+                Abel Rapha
+            </a>
+            <nav class="footer__links" aria-label="Rodapé">
+                <a href="index.html#projetos">Projetos</a>
+                <a href="index.html#sobre">Sobre</a>
+                <a href="contato.html">Contato</a>
+                <a href="https://github.com/AbelRapha" target="_blank" rel="noopener">GitHub</a>
+            </nav>
+            <p class="footer__copy">&copy; <span data-year>2026</span> Abel Rapha</p>
         </div>
-    </div>
-
-    <section class="secao2">
-        <div class="container-conteudo container-tecnologias">
-            <h1>Artigos</h1>
-            <ul class="tecnologias">
-                <li>
-                    <h2>Linguagens</h2>
-                    <img src="./img/pthon-logo.svg">
-                    <p class="produto-descricao">Python, R, Javascript</p>
-                </li>
-                <li>
-                    <h2>Design</h2>
-                    <img src="./img/design.svg">
-                    <p class="produto-descricao">HTML, CSS, Wordpress</p>
-                </li>
-                <li>
-                    <h2>BI</h2>
-                    <img src="./img/tableau.svg">
-                    <p class="produto-descricao">Power Bi, Tableau, Data Studio</p>
-                </li>
-                <li>
-                    <h2>Bancos de Dados</h2>
-                    <img src="./img/banco-de-dados.svg">
-                    <p class="produto-descricao">SQL-Server, Postgress, MongoDB</p>
-                </li>
-                <li>
-                    <h2>Cloud</h2>
-                    <img src="./img/nuvem.svg">
-                    <p class="produto-descricao">AWS, Google Cloud</p>
-                </li>
-            </ul>                                
-        </div>
-    </section>
-
-    <section class="secao2">
-        <div class="container-conteudo container-tecnologias">
-            <h1>Vídeos</h1>
-            <ul class="tecnologias">
-                <li>
-                    <h2>Linguagens</h2>
-                    <img src="./img/pthon-logo.svg">
-                    <p class="produto-descricao">Python, R, Javascript</p>
-                </li>
-                <li>
-                    <h2>Design</h2>
-                    <img src="./img/design.svg">
-                    <p class="produto-descricao">HTML, CSS, Wordpress</p>
-                </li>
-                <li>
-                    <h2>BI</h2>
-                    <img src="./img/tableau.svg">
-                    <p class="produto-descricao">Power Bi, Tableau, Data Studio</p>
-                </li>
-                <li>
-                    <h2>Bancos de Dados</h2>
-                    <img src="./img/banco-de-dados.svg">
-                    <p class="produto-descricao">SQL-Server, Postgress, MongoDB</p>
-                </li>
-                <li>
-                    <h2>Cloud</h2>
-                    <img src="./img/nuvem.svg">
-                    <p class="produto-descricao">AWS, Google Cloud</p>
-                </li>
-            </ul>                                
-        </div>
-    </section>
-
-    <script src="./index.js"></script> 
-    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-    <df-messenger
-    intent="WELCOME"
-    chat-title="chatbot"
-    agent-id="b51a7def-ae1d-4b29-9e11-d0955fddc249"
-    language-code="pt-br"
-    ></df-messenger>
-    <footer class="rodape">
-
-        <p>&copy; Abel Rapha</p>
-
     </footer>
+
+    <script src="./script.js"></script>
 </body>
 </html>
