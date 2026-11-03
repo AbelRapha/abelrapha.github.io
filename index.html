@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abel Rapha — Engenheiro de dados e produtos de IA</title>
-    <meta name="description" content="Abel Rapha, engenheiro de dados e analytics. Engenharia de dados, BI e produtos de IA na saúde. Projetos em destaque: Premius, TIC Eixo Norte, NF XML SAMPA, OR Engineering.">
+    <title data-i18n="title_index">Abel Rapha — Analista de Dados e produtos de IA</title>
+    <meta name="description" data-i18n-attr="content:meta_index" content="Abel Rapha, analista de dados. Engenharia de dados, BI e produtos de IA na saúde. Projetos em destaque: Premius, TIC Eixo Norte, NF XML SAMPA, OR Engineering.">
     <meta name="theme-color" content="#faf9f5">
     <link rel="icon" type="image/svg+xml" href="./img/favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./styles/site.css">
 </head>
 <body>
-    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <a class="skip-link" href="#conteudo" data-i18n="skip">Pular para o conteúdo</a>
 
     <header class="site-header" id="site-header" data-open="false">
         <div class="container nav">
@@ -22,16 +22,17 @@
                 Abel Rapha
             </a>
 
-            <nav class="nav__links" id="nav-links" aria-label="Principal">
-                <a class="nav__link" href="index.html" aria-current="page">Início</a>
-                <a class="nav__link" href="#projetos">Projetos</a>
-                <a class="nav__link" href="#sobre">Sobre</a>
-                <a class="nav__link" href="contato.html">Contato</a>
+            <nav class="nav__links" id="nav-links" data-i18n-attr="aria-label:nav_label" aria-label="Principal">
+                <a class="nav__link" href="index.html" aria-current="page" data-i18n="nav_home">Início</a>
+                <a class="nav__link" href="#projetos" data-i18n="nav_projects">Projetos</a>
+                <a class="nav__link" href="#sobre" data-i18n="nav_about">Sobre</a>
+                <a class="nav__link" href="contato.html" data-i18n="nav_contact">Contato</a>
             </nav>
 
             <div class="nav__actions">
-                <a class="btn btn--primary" href="contato.html">Vamos conversar</a>
-                <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menu">
+                <div class="lang-switch" data-lang-switch></div>
+                <a class="btn btn--primary" href="contato.html" data-i18n="nav_cta">Vamos conversar</a>
+                <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menu" data-i18n-attr="aria-label:menu_open">
                     <span></span>
                 </button>
             </div>
@@ -42,9 +43,9 @@
         <section class="hero">
             <div class="container hero__grid">
                 <div class="hero__copy">
-                    <p class="eyebrow">Olá, eu sou Abel</p>
-                    <h1 class="hero__title">Analista de Dados,<br><em>Engenharia de Transportes e IA</em></h1>
-                    <p class="hero__lede">
+                    <p class="eyebrow" data-i18n="hero_eyebrow">Olá, eu sou Abel</p>
+                    <h1 class="hero__title" data-i18n-html="hero_title">Analista de Dados,<br><em>Engenharia de Transportes e IA</em></h1>
+                    <p class="hero__lede" data-i18n="hero_lede">
                         Trabalho com engenharia de dados, analytics e inteligência artificial. Hoje, na Hapvida,
                         modelo dados clínicos e construo painéis e indicadores que a operação e a auditoria médica
                         usam para decidir.
@@ -52,13 +53,13 @@
 
                     <div class="hero__cta">
                         <a class="btn btn--primary" href="contato.html">
-                            Vamos conversar
+                            <span data-i18n="cta_talk">Vamos conversar</span>
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
                         </a>
-                        <a class="btn btn--ghost" href="#projetos">Ver projetos</a>
+                        <a class="btn btn--ghost" href="#projetos" data-i18n="cta_projects">Ver projetos</a>
                         <details class="cv-menu">
                             <summary class="btn btn--ghost">
-                                Baixar CV
+                                <span data-i18n="cta_cv">Baixar CV</span>
                                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>
                             </summary>
                             <ul class="cv-menu__list">
@@ -70,14 +71,14 @@
                     </div>
 
                     <div class="socials">
-                        <span class="socials__label">Me encontre:</span>
-                        <a class="social" href="https://github.com/AbelRapha" target="_blank" rel="noopener" aria-label="GitHub de Abel Rapha">
+                        <span class="socials__label" data-i18n="socials_label">Me encontre:</span>
+                        <a class="social" href="https://github.com/AbelRapha" target="_blank" rel="noopener" aria-label="GitHub de Abel Rapha" data-i18n-attr="aria-label:aria_github">
                             <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.6-1.4-1.4-1.8-1.4-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5Z"/></svg>
                         </a>
-                        <a class="social" href="https://www.linkedin.com/in/abel-rapha/" target="_blank" rel="noopener" aria-label="LinkedIn de Abel Rapha">
+                        <a class="social" href="https://www.linkedin.com/in/abel-rapha/" target="_blank" rel="noopener" aria-label="LinkedIn de Abel Rapha" data-i18n-attr="aria-label:aria_linkedin">
                             <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm6 0h3.8v1.7h.1c.5-.9 1.8-1.9 3.6-1.9 3.9 0 4.6 2.5 4.6 5.8V21h-4v-5.6c0-1.3 0-3-1.9-3s-2.1 1.4-2.1 2.9V21H9V9Z"/></svg>
                         </a>
-                        <a class="social" href="mailto:contatobeldev@gmail.com" aria-label="Enviar email para Abel Rapha">
+                        <a class="social" href="mailto:contatobeldev@gmail.com" aria-label="Enviar email para Abel Rapha" data-i18n-attr="aria-label:aria_email">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
                         </a>
                     </div>
@@ -89,15 +90,15 @@
                             <path d="M4 34 18 12l12 18L44 10l16 18"/>
                         </svg>
                         <div class="portrait__frame">
-                            <img src="./img/Imagem Abel Rapha.jpeg" alt="Retrato de Abel Rapha Macedo" width="640" height="640">
+                            <img src="./img/Imagem Abel Rapha.jpeg" alt="Retrato de Abel Rapha Macedo" width="640" height="640" data-i18n-attr="alt:portrait_alt">
                         </div>
                         <div class="portrait__blob" aria-hidden="true"></div>
-                        <a class="scroll-badge" href="#sobre" aria-label="Ir para a seção sobre">
+                        <a class="scroll-badge" href="#sobre" aria-label="Ir para a seção sobre" data-i18n-attr="aria-label:badge_aria">
                             <svg class="scroll-badge__ring" viewBox="0 0 120 120" aria-hidden="true">
                                 <defs>
                                     <path id="badge-circle" d="M60,60 m-44,0 a44,44 0 1,1 88,0 a44,44 0 1,1 -88,0"/>
                                 </defs>
-                                <text><textPath href="#badge-circle">Sobre mim • scroll down • </textPath></text>
+                                <text><textPath href="#badge-circle" data-i18n="badge_text">Sobre mim • scroll down • </textPath></text>
                             </svg>
                             <span class="scroll-badge__arrow" aria-hidden="true">
                                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
@@ -110,38 +111,38 @@
 
         <div class="marquee" aria-hidden="true">
             <div class="marquee__track">
-                <span class="marquee__item">Engenharia de Dados <span class="marquee__star">✦</span></span>
-                <span class="marquee__item">Analytics <span class="marquee__star">✦</span></span>
-                <span class="marquee__item">Inteligência Artificial <span class="marquee__star">✦</span></span>
-                <span class="marquee__item">Business Intelligence <span class="marquee__star">✦</span></span>
-                <span class="marquee__item">Pesquisa Operacional <span class="marquee__star">✦</span></span>
-                <span class="marquee__item">Automação <span class="marquee__star">✦</span></span>
-                <span class="marquee__item">Engenharia de Dados <span class="marquee__star">✦</span></span>
-                <span class="marquee__item">Analytics <span class="marquee__star">✦</span></span>
-                <span class="marquee__item">Inteligência Artificial <span class="marquee__star">✦</span></span>
-                <span class="marquee__item">Business Intelligence <span class="marquee__star">✦</span></span>
-                <span class="marquee__item">Pesquisa Operacional <span class="marquee__star">✦</span></span>
-                <span class="marquee__item">Automação <span class="marquee__star">✦</span></span>
+                <span class="marquee__item"><span data-i18n="m_data">Engenharia de Dados</span> <span class="marquee__star">✦</span></span>
+                <span class="marquee__item"><span data-i18n="m_analytics">Analytics</span> <span class="marquee__star">✦</span></span>
+                <span class="marquee__item"><span data-i18n="m_ai">Inteligência Artificial</span> <span class="marquee__star">✦</span></span>
+                <span class="marquee__item"><span data-i18n="m_bi">Business Intelligence</span> <span class="marquee__star">✦</span></span>
+                <span class="marquee__item"><span data-i18n="m_or">Pesquisa Operacional</span> <span class="marquee__star">✦</span></span>
+                <span class="marquee__item"><span data-i18n="m_auto">Automação</span> <span class="marquee__star">✦</span></span>
+                <span class="marquee__item"><span data-i18n="m_data">Engenharia de Dados</span> <span class="marquee__star">✦</span></span>
+                <span class="marquee__item"><span data-i18n="m_analytics">Analytics</span> <span class="marquee__star">✦</span></span>
+                <span class="marquee__item"><span data-i18n="m_ai">Inteligência Artificial</span> <span class="marquee__star">✦</span></span>
+                <span class="marquee__item"><span data-i18n="m_bi">Business Intelligence</span> <span class="marquee__star">✦</span></span>
+                <span class="marquee__item"><span data-i18n="m_or">Pesquisa Operacional</span> <span class="marquee__star">✦</span></span>
+                <span class="marquee__item"><span data-i18n="m_auto">Automação</span> <span class="marquee__star">✦</span></span>
             </div>
         </div>
 
         <div class="container">
             <div class="stats reveal">
                 <div class="stat">
-                    <span class="stat__value">+5 anos</span>
-                    <span class="stat__label">trabalhando com dados, desde 2021</span>
+                    <span class="stat__value" data-i18n="stat1_value">+5 anos</span>
+                    <span class="stat__label" data-i18n="stat1_label">trabalhando com dados, desde 2021</span>
                 </div>
                 <div class="stat">
                     <span class="stat__value">+300</span>
-                    <span class="stat__label">contratos registrados na Premius</span>
+                    <span class="stat__label" data-i18n="stat2_label">contratos registrados na Premius</span>
                 </div>
                 <div class="stat">
                     <span class="stat__value">2M+</span>
-                    <span class="stat__label">consultas transcritas por IA</span>
+                    <span class="stat__label" data-i18n="stat3_label">consultas transcritas por IA</span>
                 </div>
                 <div class="stat">
-                    <span class="stat__value">R$ 4.000</span>
-                    <span class="stat__label">ganhos no hackathon da Hidrovias do Brasil</span>
+                    <span class="stat__value" data-i18n="stat4_value">R$ 4.000</span>
+                    <span class="stat__label" data-i18n="stat4_label">ganhos no hackathon da Hidrovias do Brasil</span>
                 </div>
             </div>
         </div>
@@ -150,10 +151,10 @@
             <div class="container">
                 <div class="section-head reveal">
                     <div>
-                        <p class="eyebrow">Portfólio</p>
-                        <h2>Projetos em destaque</h2>
+                        <p class="eyebrow" data-i18n="proj_eyebrow">Portfólio</p>
+                        <h2 data-i18n="proj_title">Projetos em destaque</h2>
                     </div>
-                    <p>Produtos que já estão no ar, de uma plataforma SaaS a uma calculadora de frete premiada em hackathon.</p>
+                    <p data-i18n="proj_intro">Produtos que já estão no ar, de uma plataforma SaaS a uma calculadora de frete premiada em hackathon.</p>
                 </div>
 
                 <div class="projects">
@@ -161,61 +162,61 @@
                         <div class="card__body">
                             <div class="card__top">
                                 <span class="card__index">01</span>
-                                <a class="card__arrow" href="https://app.usepremius.com" target="_blank" rel="noopener" aria-label="Abrir o Premius">
+                                <a class="card__arrow" href="https://app.usepremius.com" target="_blank" rel="noopener" aria-label="Abrir o Premius" data-i18n-attr="aria-label:aria_premius">
                                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
                                 </a>
                             </div>
                             <h3 class="card__title">Premius</h3>
-                            <p class="card__text">
+                            <p class="card__text" data-i18n="txt_premius">
                                 Plataforma SaaS de gestão de carteira para corretores de seguros. Mais de 300
                                 contratos já registrados pelos usuários iniciais.
                             </p>
                             <ul class="card__tags">
-                                <li class="tag">SaaS</li>
-                                <li class="tag">Produto</li>
-                                <li class="tag">Dados</li>
+                                <li class="tag" data-i18n="tag_saas">SaaS</li>
+                                <li class="tag" data-i18n="tag_product">Produto</li>
+                                <li class="tag" data-i18n="tag_data">Dados</li>
                             </ul>
                         </div>
                         <div class="card__visual" aria-hidden="true">
                             <div class="visual-row"><span>Premius</span><strong>SaaS</strong></div>
-                            <div class="visual-row"><span>Contratos</span><strong>+300</strong></div>
-                            <div class="visual-row"><span>Status</span><strong>No ar</strong></div>
+                            <div class="visual-row"><span data-i18n="row_contracts">Contratos</span><strong>+300</strong></div>
+                            <div class="visual-row"><span data-i18n="row_status">Status</span><strong data-i18n="val_live">No ar</strong></div>
                         </div>
                     </article>
 
                     <article class="card reveal">
                         <div class="card__top">
                             <span class="card__index">02</span>
-                            <a class="card__arrow" href="https://projetoticeixonorte.vercel.app" target="_blank" rel="noopener" aria-label="Abrir TIC Eixo Norte">
+                            <a class="card__arrow" href="https://projetoticeixonorte.vercel.app" target="_blank" rel="noopener" aria-label="Abrir TIC Eixo Norte" data-i18n-attr="aria-label:aria_tic">
                                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
                             </a>
                         </div>
                         <h3 class="card__title">TIC Eixo Norte</h3>
-                        <p class="card__text">
+                        <p class="card__text" data-i18n="txt_tic">
                             Acompanhamento do TIC e do impacto na mobilidade no entorno da cidade, com painel
                             de indicadores para leitura rápida do cenário.
                         </p>
                         <ul class="card__tags">
-                            <li class="tag">Dados públicos</li>
-                            <li class="tag">Mobilidade</li>
-                            <li class="tag">Painel</li>
+                            <li class="tag" data-i18n="tag_public">Dados públicos</li>
+                            <li class="tag" data-i18n="tag_mobility">Mobilidade</li>
+                            <li class="tag" data-i18n="tag_panel">Painel</li>
                         </ul>
                     </article>
 
                     <article class="card reveal">
                         <div class="card__top">
                             <span class="card__index">03</span>
-                            <a class="card__arrow" href="https://nf-csv-to-xml-sampa.vercel.app" target="_blank" rel="noopener" aria-label="Abrir conversor NF CSV para XML">
+                            <a class="card__arrow" href="https://nf-csv-to-xml-sampa.vercel.app" target="_blank" rel="noopener" aria-label="Abrir conversor NF CSV para XML" data-i18n-attr="aria-label:aria_nf">
                                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
                             </a>
                         </div>
                         <h3 class="card__title">NF CSV → XML SAMPA</h3>
-                        <p class="card__text">
+                        <p class="card__text" data-i18n="txt_nf">
                             Converte as notas fiscais da prefeitura de São Paulo em XML para envio ao cliente,
                             no lugar da conversão manual.
                         </p>
                         <ul class="card__tags">
-                            <li class="tag">Automação</li>
+                            <li class="tag" data-i18n="tag_automation">Automação</li>
                             <li class="tag">NFS-e</li>
                             <li class="tag">Python</li>
                         </ul>
@@ -224,30 +225,30 @@
                     <article class="card reveal">
                         <div class="card__top">
                             <span class="card__index">04</span>
-                            <a class="card__arrow" href="https://github.com/AbelRapha/hidrovias_hackathon" target="_blank" rel="noopener" aria-label="Abrir calculadora de frete hidroviário no GitHub">
+                            <a class="card__arrow" href="https://github.com/AbelRapha/hidrovias_hackathon" target="_blank" rel="noopener" aria-label="Abrir calculadora de frete hidroviário no GitHub" data-i18n-attr="aria-label:aria_calc">
                                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
                             </a>
                         </div>
-                        <h3 class="card__title">Calculadora de frete hidroviário</h3>
-                        <p class="card__text">
+                        <h3 class="card__title" data-i18n="title_calc">Calculadora de frete hidroviário</h3>
+                        <p class="card__text" data-i18n="txt_calc">
                             Estimativa de frete para embarcações nos cenários que a Hidrovias do Brasil enfrenta.
                             Venceu o hackathon da empresa.
                         </p>
                         <ul class="card__tags">
                             <li class="tag">Hackathon</li>
-                            <li class="tag">Pesquisa Operacional</li>
+                            <li class="tag" data-i18n="tag_or">Pesquisa Operacional</li>
                         </ul>
                     </article>
 
                     <article class="card reveal">
                         <div class="card__top">
                             <span class="card__index">05</span>
-                            <a class="card__arrow" href="https://or-engineering.vercel.app" target="_blank" rel="noopener" aria-label="Abrir OR Engineering">
+                            <a class="card__arrow" href="https://or-engineering.vercel.app" target="_blank" rel="noopener" aria-label="Abrir OR Engineering" data-i18n-attr="aria-label:aria_or">
                                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
                             </a>
                         </div>
                         <h3 class="card__title">OR Engineering</h3>
-                        <p class="card__text">
+                        <p class="card__text" data-i18n="txt_or">
                             Ferramenta usada na disciplina de Pesquisa Operacional da UNICAMP para montar
                             matrizes origem-destino com vias do OpenStreetMap, no lugar da extração manual
                             pelo Google Maps.
@@ -262,7 +263,7 @@
 
                 <div class="projects__more">
                     <a class="btn btn--ghost" href="portfolio.html">
-                        Ver todos os projetos
+                        <span data-i18n="btn_all_projects">Ver todos os projetos</span>
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
                     </a>
                 </div>
@@ -272,17 +273,17 @@
         <section class="section section--alt" id="sobre">
             <div class="container about">
                 <div class="reveal">
-                    <p class="eyebrow">Sobre</p>
-                    <h2>Do dado bruto à decisão</h2>
+                    <p class="eyebrow" data-i18n="about_eyebrow">Sobre</p>
+                    <h2 data-i18n="about_title">Do dado bruto à decisão</h2>
                 </div>
                 <div class="about__body reveal">
-                    <p>
+                    <p data-i18n="about_p1">
                         Comecei em 2021 analisando dados públicos de imóveis. Depois passei por consultoria,
                         governança de TI e produtos de IA na saúde. Gosto de problemas em que o dado ainda
                         não está pronto: extrair, modelar, medir e entregar algo que seja utilizado para
                         tomada de decisões estratégicas.
                     </p>
-                    <p>
+                    <p data-i18n="about_p2">
                         Hoje curso Engenharia de Transportes na UNICAMP, com pesquisa em pesquisa operacional
                         e metaheurísticas. Fora do trabalho, mantenho projetos abertos de automação, BI e
                         ferramentas de otimização.
@@ -290,29 +291,29 @@
 
                     <div class="timeline">
                         <div class="timeline__item">
-                            <span class="timeline__role">Engenharia de Dados e Analytics</span>
-                            <span class="timeline__date">Out 2024 até hoje</span>
-                            <span class="timeline__org">Hapvida · Inovação</span>
+                            <span class="timeline__role" data-i18n="tl1_role">Engenharia de Dados e Analytics</span>
+                            <span class="timeline__date" data-i18n="tl1_date">Out 2024 até hoje</span>
+                            <span class="timeline__org" data-i18n="tl1_org">Hapvida · Inovação</span>
                         </div>
                         <div class="timeline__item">
-                            <span class="timeline__role">Profissional de dados</span>
-                            <span class="timeline__date">Dez 2023 até hoje</span>
-                            <span class="timeline__org">LOGFIDS IT · Consultoria</span>
+                            <span class="timeline__role" data-i18n="tl2_role">Profissional de dados</span>
+                            <span class="timeline__date" data-i18n="tl2_date">Dez 2023 até hoje</span>
+                            <span class="timeline__org" data-i18n="tl2_org">LOGFIDS IT · Consultoria</span>
                         </div>
                         <div class="timeline__item">
-                            <span class="timeline__role">Desenvolvedor de IA (freelancer)</span>
-                            <span class="timeline__date">Nov 2023 a Abr 2024</span>
-                            <span class="timeline__org">Encodec LLC · EUA</span>
+                            <span class="timeline__role" data-i18n="tl3_role">Desenvolvedor de IA (freelancer)</span>
+                            <span class="timeline__date" data-i18n="tl3_date">Nov 2023 a Abr 2024</span>
+                            <span class="timeline__org" data-i18n="tl3_org">Encodec LLC · EUA</span>
                         </div>
                         <div class="timeline__item">
-                            <span class="timeline__role">Analista de Dados</span>
-                            <span class="timeline__date">Mar 2022 a Set 2024</span>
-                            <span class="timeline__org">Porto Seguro via Stefanini</span>
+                            <span class="timeline__role" data-i18n="tl4_role">Analista de Dados</span>
+                            <span class="timeline__date" data-i18n="tl4_date">Mar 2022 a Set 2024</span>
+                            <span class="timeline__org" data-i18n="tl4_org">Porto Seguro via Stefanini</span>
                         </div>
                         <div class="timeline__item">
-                            <span class="timeline__role">Analista de Dados</span>
-                            <span class="timeline__date">Dez 2021 a Mar 2022</span>
-                            <span class="timeline__org">Bloco Inovação (Brognoli)</span>
+                            <span class="timeline__role" data-i18n="tl4_role">Analista de Dados</span>
+                            <span class="timeline__date" data-i18n="tl5_date">Dez 2021 a Mar 2022</span>
+                            <span class="timeline__org" data-i18n="tl5_org">Bloco Inovação (Brognoli)</span>
                         </div>
                     </div>
                 </div>
@@ -321,9 +322,9 @@
 
         <section class="contact">
             <div class="container contact__inner reveal">
-                <p class="eyebrow">Contato</p>
-                <h2>Vamos conversar sobre o próximo projeto</h2>
-                <p>Me conta o problema e eu digo se consigo ajudar. Se preferir, chama no LinkedIn.</p>
+                <p class="eyebrow" data-i18n="ic_eyebrow">Contato</p>
+                <h2 data-i18n="ic_title">Vamos conversar sobre o próximo projeto</h2>
+                <p data-i18n="ic_p">Me conta o problema e eu digo se consigo ajudar. Se preferir, chama no LinkedIn.</p>
                 <div class="contact__actions">
                     <a class="btn btn--light" href="mailto:contatobeldev@gmail.com">
                         contatobeldev@gmail.com
@@ -341,16 +342,17 @@
                 <span class="brand__mark" aria-hidden="true">A</span>
                 Abel Rapha
             </a>
-            <nav class="footer__links" aria-label="Rodapé">
-                <a href="#projetos">Projetos</a>
-                <a href="#sobre">Sobre</a>
-                <a href="contato.html">Contato</a>
+            <nav class="footer__links" data-i18n-attr="aria-label:footer_nav" aria-label="Rodapé">
+                <a href="#projetos" data-i18n="nav_projects">Projetos</a>
+                <a href="#sobre" data-i18n="nav_about">Sobre</a>
+                <a href="contato.html" data-i18n="nav_contact">Contato</a>
                 <a href="https://github.com/AbelRapha" target="_blank" rel="noopener">GitHub</a>
             </nav>
             <p class="footer__copy">&copy; <span data-year>2026</span> Abel Rapha</p>
         </div>
     </footer>
 
+    <script src="./i18n.js"></script>
     <script src="./script.js"></script>
 </body>
 </html>

@@ -5,16 +5,26 @@ const header = document.getElementById("site-header");
 const toggle = document.querySelector(".nav__toggle");
 const links = document.querySelector(".nav__links");
 
+function isMenuOpen() {
+    return header ? header.dataset.open === "true" : false;
+}
+
+function renderToggle() {
+    if (!toggle) return;
+    const open = isMenuOpen();
+    toggle.setAttribute("aria-expanded", String(open));
+    toggle.setAttribute("aria-label", t(open ? "menu_close" : "menu_open"));
+}
+
 function setMenu(open) {
     if (!header || !toggle) return;
     header.dataset.open = String(open);
-    toggle.setAttribute("aria-expanded", String(open));
-    toggle.setAttribute("aria-label", open ? "Fechar menu" : "Abrir menu");
+    renderToggle();
 }
 
 if (toggle) {
     toggle.addEventListener("click", () => {
-        setMenu(header.dataset.open !== "true");
+        setMenu(!isMenuOpen());
     });
 }
 
@@ -29,9 +39,12 @@ document.addEventListener("keydown", (event) => {
 });
 
 document.addEventListener("click", (event) => {
-    if (!header || header.dataset.open !== "true") return;
+    if (!header || !isMenuOpen()) return;
     if (!header.contains(event.target)) setMenu(false);
 });
+
+// Mantém o rótulo do botão de menu no idioma atual
+document.addEventListener("langchange", renderToggle);
 
 // Animação de entrada
 const revealItems = document.querySelectorAll(".reveal");
@@ -76,7 +89,7 @@ if (form) {
         const assunto = String(data.get("assunto") || "").trim();
         const mensagem = String(data.get("mensagem") || "").trim();
 
-        const subject = encodeURIComponent(assunto || `Contato pelo site - ${nome}`);
+        const subject = encodeURIComponent(assunto || `${t("mail_subject_prefix")}${nome}`);
         const body = encodeURIComponent(
             `${mensagem}\n\n---\n${nome}\n${email}`
         );
@@ -84,7 +97,7 @@ if (form) {
         window.location.href = `mailto:contatobeldev@gmail.com?subject=${subject}&body=${body}`;
 
         if (status) {
-            status.textContent = "Abrindo seu app de email com a mensagem preenchida.";
+            status.textContent = t("status_opening");
         }
     });
 }

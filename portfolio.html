@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio — Abel Rapha</title>
-    <meta name="description" content="Projetos de Abel Rapha: Premius, TIC Eixo Norte, conversor de NF para XML, calculadora de frete hidroviário, OR Engineering e automações.">
+    <title data-i18n="title_portfolio">Portfólio — Abel Rapha</title>
+    <meta name="description" data-i18n-attr="content:meta_portfolio" content="Projetos de Abel Rapha: Premius, TIC Eixo Norte, conversor de NF para XML, calculadora de frete hidroviário, OR Engineering e automações.">
     <meta name="theme-color" content="#faf9f5">
     <link rel="icon" type="image/svg+xml" href="./img/favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./styles/site.css">
 </head>
 <body>
-    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <a class="skip-link" href="#conteudo" data-i18n="skip">Pular para o conteúdo</a>
 
     <header class="site-header" id="site-header" data-open="false">
         <div class="container nav">
@@ -22,16 +22,17 @@
                 Abel Rapha
             </a>
 
-            <nav class="nav__links" id="nav-links" aria-label="Principal">
-                <a class="nav__link" href="index.html">Início</a>
-                <a class="nav__link" href="portfolio.html" aria-current="page">Projetos</a>
-                <a class="nav__link" href="index.html#sobre">Sobre</a>
-                <a class="nav__link" href="contato.html">Contato</a>
+            <nav class="nav__links" id="nav-links" aria-label="Principal" data-i18n-attr="aria-label:nav_label">
+                <a class="nav__link" href="index.html" data-i18n="nav_home">Início</a>
+                <a class="nav__link" href="portfolio.html" aria-current="page" data-i18n="nav_projects">Projetos</a>
+                <a class="nav__link" href="index.html#sobre" data-i18n="nav_about">Sobre</a>
+                <a class="nav__link" href="contato.html" data-i18n="nav_contact">Contato</a>
             </nav>
 
             <div class="nav__actions">
-                <a class="btn btn--primary" href="contato.html">Vamos conversar</a>
-                <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menu">
+                <div class="lang-switch" data-lang-switch></div>
+                <a class="btn btn--primary" href="contato.html" data-i18n="nav_cta">Vamos conversar</a>
+                <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menu" data-i18n-attr="aria-label:menu_open">
                     <span></span>
                 </button>
             </div>
@@ -41,15 +42,15 @@
     <main id="conteudo">
         <section class="page-hero">
             <div class="container">
-                <p class="eyebrow">Portfólio</p>
-                <h1>Projetos</h1>
-                <p>
+                <p class="eyebrow" data-i18n="pg_eyebrow">Portfólio</p>
+                <h1 data-i18n="pg_title">Projetos</h1>
+                <p data-i18n="pg_p">
                     Produtos, automações e ferramentas que construí. A maioria está no ar e pode ser aberta
                     no navegador; o restante está no GitHub.
                 </p>
                 <div class="cta-row">
                     <a class="btn btn--primary" href="https://github.com/AbelRapha" target="_blank" rel="noopener">
-                        Ver repositórios no GitHub
+                        <span data-i18n="pg_cta">Ver repositórios no GitHub</span>
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
                     </a>
                 </div>
@@ -62,55 +63,55 @@
                     <article class="card reveal">
                         <div class="card__top">
                             <span class="card__index">01</span>
-                            <a class="card__arrow" href="https://app.usepremius.com" target="_blank" rel="noopener" aria-label="Abrir o Premius">
+                            <a class="card__arrow" href="https://app.usepremius.com" target="_blank" rel="noopener" aria-label="Abrir o Premius" data-i18n-attr="aria-label:aria_premius">
                                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
                             </a>
                         </div>
                         <h2 class="card__title">Premius</h2>
-                        <p class="card__text">
+                        <p class="card__text" data-i18n="txt_premius">
                             Plataforma SaaS de gestão de carteira para corretores de seguros, com mais de 300
                             contratos registrados pelos usuários iniciais.
                         </p>
                         <ul class="card__tags">
-                            <li class="tag">SaaS</li>
-                            <li class="tag">Produto</li>
-                            <li class="tag">Dados</li>
+                            <li class="tag" data-i18n="tag_saas">SaaS</li>
+                            <li class="tag" data-i18n="tag_product">Produto</li>
+                            <li class="tag" data-i18n="tag_data">Dados</li>
                         </ul>
                     </article>
 
                     <article class="card reveal">
                         <div class="card__top">
                             <span class="card__index">02</span>
-                            <a class="card__arrow" href="https://projetoticeixonorte.vercel.app" target="_blank" rel="noopener" aria-label="Abrir TIC Eixo Norte">
+                            <a class="card__arrow" href="https://projetoticeixonorte.vercel.app" target="_blank" rel="noopener" aria-label="Abrir TIC Eixo Norte" data-i18n-attr="aria-label:aria_tic">
                                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
                             </a>
                         </div>
                         <h2 class="card__title">TIC Eixo Norte</h2>
-                        <p class="card__text">
+                        <p class="card__text" data-i18n="txt_tic">
                             Acompanhamento do TIC e do impacto na mobilidade no entorno da cidade, com painel
                             de indicadores para leitura rápida do cenário.
                         </p>
                         <ul class="card__tags">
-                            <li class="tag">Dados públicos</li>
-                            <li class="tag">Mobilidade</li>
-                            <li class="tag">Painel</li>
+                            <li class="tag" data-i18n="tag_public">Dados públicos</li>
+                            <li class="tag" data-i18n="tag_mobility">Mobilidade</li>
+                            <li class="tag" data-i18n="tag_panel">Painel</li>
                         </ul>
                     </article>
 
                     <article class="card reveal">
                         <div class="card__top">
                             <span class="card__index">03</span>
-                            <a class="card__arrow" href="https://nf-csv-to-xml-sampa.vercel.app" target="_blank" rel="noopener" aria-label="Abrir conversor NF CSV para XML">
+                            <a class="card__arrow" href="https://nf-csv-to-xml-sampa.vercel.app" target="_blank" rel="noopener" aria-label="Abrir conversor NF CSV para XML" data-i18n-attr="aria-label:aria_nf">
                                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
                             </a>
                         </div>
                         <h2 class="card__title">NF CSV → XML SAMPA</h2>
-                        <p class="card__text">
+                        <p class="card__text" data-i18n="txt_nf">
                             Converte as notas fiscais da prefeitura de São Paulo em XML para envio ao cliente,
                             no lugar da conversão manual.
                         </p>
                         <ul class="card__tags">
-                            <li class="tag">Automação</li>
+                            <li class="tag" data-i18n="tag_automation">Automação</li>
                             <li class="tag">NFS-e</li>
                             <li class="tag">Python</li>
                         </ul>
@@ -119,30 +120,30 @@
                     <article class="card reveal">
                         <div class="card__top">
                             <span class="card__index">04</span>
-                            <a class="card__arrow" href="https://github.com/AbelRapha/hidrovias_hackathon" target="_blank" rel="noopener" aria-label="Abrir calculadora de frete hidroviário no GitHub">
+                            <a class="card__arrow" href="https://github.com/AbelRapha/hidrovias_hackathon" target="_blank" rel="noopener" aria-label="Abrir calculadora de frete hidroviário no GitHub" data-i18n-attr="aria-label:aria_calc">
                                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
                             </a>
                         </div>
-                        <h2 class="card__title">Calculadora de frete hidroviário</h2>
-                        <p class="card__text">
+                        <h2 class="card__title" data-i18n="title_calc">Calculadora de frete hidroviário</h2>
+                        <p class="card__text" data-i18n="txt_calc">
                             Estimativa de frete para embarcações nos cenários que a Hidrovias do Brasil enfrenta.
                             Venceu o hackathon da empresa.
                         </p>
                         <ul class="card__tags">
                             <li class="tag">Hackathon</li>
-                            <li class="tag">Pesquisa Operacional</li>
+                            <li class="tag" data-i18n="tag_or">Pesquisa Operacional</li>
                         </ul>
                     </article>
 
                     <article class="card reveal">
                         <div class="card__top">
                             <span class="card__index">05</span>
-                            <a class="card__arrow" href="https://or-engineering.vercel.app" target="_blank" rel="noopener" aria-label="Abrir OR Engineering">
+                            <a class="card__arrow" href="https://or-engineering.vercel.app" target="_blank" rel="noopener" aria-label="Abrir OR Engineering" data-i18n-attr="aria-label:aria_or">
                                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
                             </a>
                         </div>
                         <h2 class="card__title">OR Engineering</h2>
-                        <p class="card__text">
+                        <p class="card__text" data-i18n="txt_or">
                             Ferramenta usada na disciplina de Pesquisa Operacional da UNICAMP para montar
                             matrizes origem-destino com vias do OpenStreetMap, no lugar da extração manual
                             pelo Google Maps.
@@ -157,63 +158,63 @@
                     <article class="card reveal">
                         <div class="card__top">
                             <span class="card__index">06</span>
-                            <a class="card__arrow" href="https://github.com/AbelRapha/Dashboards-PBI" target="_blank" rel="noopener" aria-label="Abrir dashboards de Power BI no GitHub">
+                            <a class="card__arrow" href="https://github.com/AbelRapha/Dashboards-PBI" target="_blank" rel="noopener" aria-label="Abrir dashboards de Power BI no GitHub" data-i18n-attr="aria-label:aria_pbi">
                                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
                             </a>
                         </div>
-                        <h2 class="card__title">Dashboards Power BI</h2>
-                        <p class="card__text">
+                        <h2 class="card__title" data-i18n="title_pbi">Dashboards Power BI</h2>
+                        <p class="card__text" data-i18n="txt_pbi">
                             Painéis de vendas, RH e produção, usados como exemplos de análise por segmento
                             de negócio.
                         </p>
                         <ul class="card__tags">
                             <li class="tag">Power BI</li>
-                            <li class="tag">Visualização</li>
+                            <li class="tag" data-i18n="tag_viz">Visualização</li>
                         </ul>
                     </article>
 
                     <article class="card reveal">
                         <div class="card__top">
                             <span class="card__index">07</span>
-                            <a class="card__arrow" href="https://github.com/AbelRapha/n8n_finances_agent" target="_blank" rel="noopener" aria-label="Abrir n8n Finances Agent no GitHub">
+                            <a class="card__arrow" href="https://github.com/AbelRapha/n8n_finances_agent" target="_blank" rel="noopener" aria-label="Abrir n8n Finances Agent no GitHub" data-i18n-attr="aria-label:aria_n8n">
                                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
                             </a>
                         </div>
                         <h2 class="card__title">n8n Finances Agent</h2>
-                        <p class="card__text">
+                        <p class="card__text" data-i18n="txt_n8n">
                             Fluxo de automação para finanças pessoais que registra e consulta transações em
                             linguagem natural, integrando n8n, Google Sheets e Telegram.
                         </p>
                         <ul class="card__tags">
                             <li class="tag">n8n</li>
-                            <li class="tag">Automação</li>
-                            <li class="tag">Agente</li>
+                            <li class="tag" data-i18n="tag_automation">Automação</li>
+                            <li class="tag" data-i18n="tag_agent">Agente</li>
                         </ul>
                     </article>
 
                     <article class="card reveal">
                         <div class="card__top">
                             <span class="card__index">08</span>
-                            <a class="card__arrow" href="https://www.youtube.com/watch?v=GICcdmUZkdw&amp;list=PLVuyr40ZACX-ZiFgM7fUvLRervb5w-Mju" target="_blank" rel="noopener" aria-label="Abrir playlist de automação do Jira no YouTube">
+                            <a class="card__arrow" href="https://www.youtube.com/watch?v=GICcdmUZkdw&amp;list=PLVuyr40ZACX-ZiFgM7fUvLRervb5w-Mju" target="_blank" rel="noopener" aria-label="Abrir playlist de automação do Jira no YouTube" data-i18n-attr="aria-label:aria_jira">
                                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
                             </a>
                         </div>
-                        <h2 class="card__title">Automação do Jira com Python</h2>
-                        <p class="card__text">
+                        <h2 class="card__title" data-i18n="title_jira">Automação do Jira com Python</h2>
+                        <p class="card__text" data-i18n="txt_jira">
                             Playlist de aulas sobre a API do Jira para automação e coleta de dados, a partir
                             da documentação da Atlassian.
                         </p>
                         <ul class="card__tags">
                             <li class="tag">Jira</li>
                             <li class="tag">Python</li>
-                            <li class="tag">Aulas</li>
+                            <li class="tag" data-i18n="tag_classes">Aulas</li>
                         </ul>
                     </article>
                 </div>
 
                 <div class="projects__more">
                     <a class="btn btn--primary" href="https://github.com/AbelRapha" target="_blank" rel="noopener">
-                        Ver todos no GitHub
+                        <span data-i18n="pg_all_btn">Ver todos no GitHub</span>
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
                     </a>
                 </div>
@@ -227,16 +228,17 @@
                 <span class="brand__mark" aria-hidden="true">A</span>
                 Abel Rapha
             </a>
-            <nav class="footer__links" aria-label="Rodapé">
-                <a href="index.html#projetos">Projetos</a>
-                <a href="index.html#sobre">Sobre</a>
-                <a href="contato.html">Contato</a>
+            <nav class="footer__links" aria-label="Rodapé" data-i18n-attr="aria-label:footer_nav">
+                <a href="index.html#projetos" data-i18n="nav_projects">Projetos</a>
+                <a href="index.html#sobre" data-i18n="nav_about">Sobre</a>
+                <a href="contato.html" data-i18n="nav_contact">Contato</a>
                 <a href="https://github.com/AbelRapha" target="_blank" rel="noopener">GitHub</a>
             </nav>
             <p class="footer__copy">&copy; <span data-year>2026</span> Abel Rapha</p>
         </div>
     </footer>
 
+    <script src="./i18n.js"></script>
     <script src="./script.js"></script>
 </body>
 </html>
