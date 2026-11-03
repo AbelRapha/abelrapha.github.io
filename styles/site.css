@@ -951,6 +951,13 @@ button {
     color: var(--muted);
 }
 
+.contact-cta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    margin-top: 2rem;
+}
+
 /* ---------- forms ---------- */
 
 .contact-grid {
